@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93c1f6e5-399c-4e0a-8d6c-5158162e0982" name="Changes" comment="开启算法之旅">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/分治/分治搜索策略/binary_search_recur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/分治/分治搜索策略/分治搜索.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/分治/初见分治/分治常见应用.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/分治/初见分治/分治快的原因.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/分治/初见分治/多数分为桶，多次分更快.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/分治/初见分治/如何判断分治问题.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/分治/初见分治/快原因2并行计算优化.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/分治/构建树问题/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/分治/构建树问题/build_tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/分治/构建树问题/是否可用分治,如何划分子树.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/分治/构建树问题/索引特点.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/N皇后问题/n_queens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/N皇后问题/列与对角线剪枝.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/N皇后问题/逐行放置策略.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/N皇后问题/问题.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/全排列问题/两种剪枝对比.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/全排列问题/无相等元素的情况/permutations_i.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/全排列问题/无相等元素的情况/重复选择剪枝¶.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/全排列问题/考虑相等元素的情况/permutations_ii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/全排列问题/考虑相等元素的情况/复杂度.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/全排列问题/考虑相等元素的情况/重复选择剪枝.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/初识回溯/三个例子和框架/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/初识回溯/三个例子和框架/剪枝.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/初识回溯/三个例子和框架/尝试与回退.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/初识回溯/三个例子和框架/框架代码.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/初识回溯/三个例子和框架/正常回溯.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/初识回溯/优点局限性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/初识回溯/剪枝.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/初识回溯/回溯典型例题.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/回溯/初识回溯/常用框架术语.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/冒泡排序/bubble_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/冒泡排序/算法流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/冒泡排序/算法特性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/基数排序/radix_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/基数排序/和计数排序区别.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/基数排序/算法特性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/堆排序/heap_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/堆排序/算法流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/堆排序/算法特性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/归并排序/merge_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/快速排序/quick_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/快速排序/基准数优化.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/快速排序/算法特性和快的原因.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/插入排序/insertion_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/插入排序/算法特性和插入的优势.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/最终/终章.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/桶排序/bucket_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/桶排序/介绍.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/计数排序/counting_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/计数排序/特性局限性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/计数排序/简单实现.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/评价维度.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/选择排序/selection_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/选择排序/算法特性.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArrayDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedListDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/哈希表/HashMapChaining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/哈希表/HashMapOpenAddressing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/哈希表/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/哈希表/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/hello数据结构/图Graph/图的基本操作/GraphAdjMat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello数据结构/图Graph/图的基本操作/GraphAdjMat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/hello数据结构/堆heap/堆的基础/my_heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello数据结构/堆heap/堆的基础/my_heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/解析.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itheima/hello算法/排序/解析.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2kRxs0gUzoiNS3yJckZStQwPuIf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/20520/Desktop/SpringCloud微服务—资料/day01-MybatisPlus/资料/mp-demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/java lianxi/hello-algo/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\排序\快速排序" />
+      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\栈与队列" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\分治\初见分治" />
+      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\搜索\查找右边界" />
+      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\堆heap\堆的基础" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.itheima.hello算法.回溯.初识算法" />
+      <recent name="org.itheima.hello算法.分治.构建树问题" />
+      <recent name="org.itheima.hello算法.堆heap.Topk问题" />
+      <recent name="org.itheima.hello算法.堆heap.建堆操作" />
+      <recent name="org.itheima.hello算法.堆" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93c1f6e5-399c-4e0a-8d6c-5158162e0982" name="Changes" comment="" />
+      <created>1723260392721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723260392721</updated>
+      <workItem from="1723260393761" duration="4871000" />
+      <workItem from="1723347573866" duration="898000" />
+      <workItem from="1723594993887" duration="4257000" />
+      <workItem from="1724378457405" duration="11628000" />
+      <workItem from="1724401997267" duration="9958000" />
+      <workItem from="1724459051378" duration="6971000" />
+      <workItem from="1724482222420" duration="1872000" />
+      <workItem from="1724484114075" duration="7392000" />
+      <workItem from="1724547916599" duration="4960000" />
+      <workItem from="1724582477934" duration="4152000" />
+      <workItem from="1724593988931" duration="34000" />
+      <workItem from="1724594032608" duration="55000" />
+      <workItem from="1724594097142" duration="1833000" />
+      <workItem from="1724641684344" duration="4517000" />
+      <workItem from="1724724538902" duration="4595000" />
+      <workItem from="1724894549737" duration="7761000" />
+      <workItem from="1724982560977" duration="11635000" />
+      <workItem from="1725067796484" duration="2765000" />
+      <workItem from="1725271621004" duration="2007000" />
+      <workItem from="1725322468347" duration="10184000" />
+      <workItem from="1725350323111" duration="8568000" />
+      <workItem from="1725433909817" duration="3442000" />
+      <workItem from="1725515071983" duration="49000" />
+      <workItem from="1725601798074" duration="1708000" />
+      <workItem from="1725760781162" duration="1318000" />
+      <workItem from="1725865742723" duration="163000" />
+      <workItem from="1725867365613" duration="25000" />
+    </task>
+    <task id="LOCAL-00001" summary="开启算法之旅">
+      <option name="closed" value="true" />
+      <created>1724986690083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724986690083</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="开启算法之旅" />
+    <option name="LAST_COMMIT_MESSAGE" value="开启算法之旅" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
