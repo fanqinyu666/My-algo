@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class binary_tree_dfs {
-
+    //广度优先遍历通常借助“队列”来实现。队列遵循“先进先出”的规则，而广度优先遍历则遵循“逐层推进”的规则，两者背后的思想是一致的。实现代码如下：
     /* 层序遍历 */
     List<Integer> levelOrder(TreeNode root) {
         // 初始化队列，加入根节点

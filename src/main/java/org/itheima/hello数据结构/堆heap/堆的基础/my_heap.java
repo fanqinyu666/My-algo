@@ -3,6 +3,7 @@ package org.itheima.hello数据结构.堆heap.堆的基础;
 import java.util.List;
 
 public class my_heap {
+    //优先队列就是堆
     private List<Integer> maxHeap;
 
     boolean isEmpty(){
@@ -78,16 +79,12 @@ public class my_heap {
         // 判空处理
         if (isEmpty())
             throw new IndexOutOfBoundsException();
-
         // 交换根节点与最右叶节点（交换首元素与尾元素）
         swap(0, size() - 1);
-
         // 删除节点
         int val = maxHeap.remove(size() - 1);
-
         // 从顶至底堆化
         siftDown(0);
-
         // 返回堆顶元素
         return val;
     }

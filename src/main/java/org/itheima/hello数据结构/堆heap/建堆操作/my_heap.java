@@ -14,7 +14,7 @@ public class my_heap {
         // 堆化除叶节点以外的其他所有节点
         for (int i = parent(size() - 1); i >= 0; i--) {
             siftDown(i);
-            //从上到下堆化
+            //从下到上
         }
     }
 
