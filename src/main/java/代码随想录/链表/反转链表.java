@@ -6,11 +6,13 @@ public class 反转链表 {
         ListNode cur = head;
         while (cur!=null){
 
-            ListNode next = cur.next;//留着next
+            ListNode next = cur.next;
+            //留着next
             cur.next=pre;
             pre=cur;
             cur=next;
         }
         return pre;
     }
+
 }

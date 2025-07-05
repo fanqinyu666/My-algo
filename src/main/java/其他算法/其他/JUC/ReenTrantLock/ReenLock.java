@@ -6,6 +6,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class ReenLock {
     private static ReentrantLock lock = new ReentrantLock();
+    //公平锁
+    private static ReentrantLock lock2 = new ReentrantLock(true);
+
     public static void main(String[] args) throws InterruptedException {
 
 
@@ -100,6 +103,8 @@ public class ReenLock {
 
  */
     }
+
+
     public static void m1() {
         lock.lock();
         try {

@@ -3,6 +3,7 @@ package 其他算法.其他.JUC.线程池;
 
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
@@ -11,6 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class 线程池 {
     public static void main(String[] args) {
+
         ThreadPool threadPool = new ThreadPool(2,1000,TimeUnit.MINUTES,10);
         for (int i = 0; i <5; i++) {
             int j=i;
@@ -24,7 +26,6 @@ public class 线程池 {
     }
 
 static class ThreadPool{
-
     //七大参数肯定要有
     private BufferQueue<Runnable> taskQueue;
     private HashSet<Workers> workers=new HashSet<>();
@@ -36,15 +37,12 @@ static class ThreadPool{
     private TimeUnit unit;
     //拒绝策略
     //最大线程数
-
     public ThreadPool(int coreSize, long timeout, TimeUnit unit,int queueSize) {
         this.coreSize = coreSize;
         this.timeout = timeout;
         this.unit = unit;
         taskQueue=new BufferQueue<>(queueSize);
     }
-
-
     //提交任务方法，传入一个Run
     private void execute(Runnable task){
         synchronized (this) {
@@ -82,13 +80,17 @@ static class ThreadPool{
                     task=null;
                 }
             }
+
             synchronized (workers) {
                 //到这里意思是没有队列无任务，手头也无任务，所以线程可以死了,直接去了当前this对象
+                //但是核心线程外面不用让他死
                 workers.remove(this);
             }
+
         }
     }
 }
+
 static class BufferQueue<T>{
         //1.队列
         private LinkedList<T> queue=new LinkedList<>();
@@ -106,6 +108,9 @@ static class BufferQueue<T>{
             this.captity = captity;
         }
 
+
+
+        //添加一个任务
         public void add(T message){
             lockS.lock();
             try {
@@ -123,6 +128,7 @@ static class BufferQueue<T>{
             }
         }
 
+
         //获取消息方法
         public T put(){
             lockX.lock();
@@ -134,17 +140,12 @@ static class BufferQueue<T>{
                         throw new RuntimeException(e);
                     }
                 }
-
                 T res = queue.removeLast();
                 CS.signalAll();
                 return res;
             } finally {
                 lockX.unlock();
             }
-        }
-        //这里要对获取容量获取加锁是我一开始没想到的
-        public synchronized int size(){
-            return queue.size();
         }
 
         //带超时时间的获取消息方法
@@ -172,6 +173,10 @@ static class BufferQueue<T>{
             } finally {
                 lockX.unlock();
             }
+        }
+        //这里要对获取容量获取加锁是我一开始没想到的
+        public synchronized int size(){
+            return queue.size();
         }
     }
 }

@@ -1,11 +1,11 @@
-package 其他算法.其他.JUC.保护性等待;
+package 其他算法.其他.JUC.JUC设计模式.保护性暂停;
 
 //保护性暂停代码
 public class Futrue {
     //线程1等待线程2的任务
     public static void main(String[] args) throws InterruptedException {
 
-        GuardedObject guardedObject = new GuardedObject();
+        GuardedObject2 guardedObject = new GuardedObject2();
 
         new Thread(new Runnable() {
             @Override
@@ -26,6 +26,7 @@ public class Futrue {
     }
 
 }
+
 //不带超时时间
 class GuardedObject{
     private Object response;
@@ -42,13 +43,16 @@ class GuardedObject{
             return response;
         }
     }
-    public void comlete(Object response){
 
+
+
+    public void comlete(Object response){
         synchronized (this){
             this.response=response;
             this.notifyAll();
         }
     }
+
 }
 
 
@@ -60,6 +64,7 @@ class GuardedObjectTimed{
     //你这里不能直接传入参数，不然出来也会进入下一轮循环
 
     public Object get(long timeout){
+
         synchronized (this){
             //记录开始时间
             long begin=System.currentTimeMillis();

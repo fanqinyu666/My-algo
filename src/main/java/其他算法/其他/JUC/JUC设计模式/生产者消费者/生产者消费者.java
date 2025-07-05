@@ -1,4 +1,4 @@
-package 其他算法.其他.JUC.生产者消费者;
+package 其他算法.其他.JUC.JUC设计模式.生产者消费者;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;

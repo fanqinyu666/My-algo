@@ -1,16 +1,7 @@
 package 代码随想录.数组;
 
 public class 移除元素 {
-    public int removeElement(int[] nums, int val) {
 
-        int left=0;
-        int right=0;
-
-        for (int i = 0; i < 5; i++) {
-            left++;
-        }
-        return left;
-    }
     public int removeDuplicates(int[] nums) {
         int left=1;
         int right=1;

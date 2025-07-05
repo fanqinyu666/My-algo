@@ -27,25 +27,4 @@ public class 跳跃游戏II {
         }
         return result;
     }
-
-
-
-    public int jump2(int[] nums) {
-        if(nums.length==1){
-            return 0;
-        }
-        int cover=0;
-        int temp =0;
-        int result=0;
-        for (int i = 0; i <=cover; i++) {
-            cover = Math.max(i + nums[i], cover);
-            while (temp<=cover) {
-
-            }
-            result++;
-        }
-
-
-        return result;
-    }
 }

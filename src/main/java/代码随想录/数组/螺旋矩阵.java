@@ -13,8 +13,10 @@ public class 螺旋矩阵 {
 
     public List<Integer> spiralOrder(int[][] matrix) {
         int n = matrix.length;
-        int startX = 0, startY = 0;  // 每一圈的起始点
-        int offset = 1;//偏移量
+        int startX = 0, startY = 0;
+        // 每一圈的起始点
+        int offset = 1;
+        //偏移量
         int i, j; // j 代表列, i 代表行;
 
         int sum = Math.min(matrix.length, matrix[0].length) / 2;//循环次数

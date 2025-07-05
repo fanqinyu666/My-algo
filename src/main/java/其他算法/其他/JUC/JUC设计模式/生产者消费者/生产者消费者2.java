@@ -1,9 +1,9 @@
-package 其他算法.其他.JUC.生产者消费者;
+package 其他算法.其他.JUC.JUC设计模式.生产者消费者;
 
 import java.util.LinkedList;
 
 //生产者消费者，写的就是个队列，队列写完了其他俩随便写的
-public class 生产者消费者two {
+public class 生产者消费者2 {
     public static void main(String[] args) {
         BufferQueue bufferQueue = new BufferQueue(3);
         for (int i = 0; i < 5; i++) {
@@ -33,10 +33,13 @@ class BufferQueue{
     //目前大小,这东西没必要啊，你双向链表都有了
     //private int size=0;
     //容量
+
     private int captity;
     public BufferQueue(int captity) {
         this.captity = captity;
     }
+
+
     //添加消息的方法
     public synchronized void add(int ss){
         while(queue.size()>=captity){

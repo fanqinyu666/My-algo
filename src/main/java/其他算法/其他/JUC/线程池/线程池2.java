@@ -25,9 +25,13 @@ public class 线程池2 {
             });
         }
     }
+
+
     static class ThreadPool {
         private BlockQueue<Runnable> blockQueue;
+
         private HashSet<Worker> workders = new HashSet<>();
+
         private int coreSize;
         //超时时间
         private long timeout;
@@ -43,6 +47,7 @@ public class 线程池2 {
             blockQueue = new BlockQueue<>(captity);
             this.runnableRejectPolicy = runnableRejectPolicy;
         }
+
         //肯定来一个启动方法
         private void execute(Runnable task) {
             synchronized (this) {
@@ -57,6 +62,7 @@ public class 线程池2 {
                 }
             }
         }
+
 
         //Worker和线程不同的是，他会去阻塞队列拿线程自动消费
         class Worker extends Thread {
@@ -76,6 +82,7 @@ public class 线程池2 {
             }
         }
     }
+
     static class BlockQueue<T> {
         private LinkedList<T> queue = new LinkedList<>();
         private final int captity;
@@ -126,6 +133,7 @@ public class 线程池2 {
                 lockC.unlock();
             }
         }
+
         //消费者拿取
         private T put() {
             lockX.lock();
@@ -144,6 +152,7 @@ public class 线程池2 {
                 lockX.unlock();
             }
         }
+
         //消费者时限拿取
         private T putTimed(long time, TimeUnit unit) {
             lockX.lock();
@@ -166,10 +175,12 @@ public class 线程池2 {
                 lockX.unlock();
             }
         }
+
         private synchronized int size() {
             return queue.size();
         }
         //带拒绝策略的添加
+
         public void tryPut(RejectPolicy<T> runnableRejectPolicy, T task) {
             lockC.lock();
             try {
