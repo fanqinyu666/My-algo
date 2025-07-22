@@ -17,6 +17,13 @@ public class 不同的二叉搜索树 {
         }
         return dp[n];
     }
-
-
+    public int maxSubArray(int[] nums) {
+        int sum=0,maxAns=nums[0];
+        for(int x:nums){
+            sum+=x;
+            if(sum>maxAns) maxAns=sum;
+            if(sum<0) sum=0;
+        }
+        return maxAns;
+    }
 }

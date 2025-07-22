@@ -29,6 +29,5 @@ public class 全排列 {
             path.removeLast();
             booleans[i]=false;
         }
-
     }
 }

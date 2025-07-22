@@ -9,7 +9,8 @@ public class 合并区间 {
         List<int[]> res = new LinkedList<>();
 
         Arrays.sort(intervals, (o1, o2)->Integer.compare(o1[0],o2[0]));
-        res.add(intervals[0]);//先放入一个，之后放入的和现在放的作比较
+        res.add(intervals[0]);
+        //先放入一个，之后放入的和现在放的作比较
 
         for (int i = 1; i < intervals.length; i++) {
             if(intervals[i][0]<=res.get(res.size()-1)[1]){

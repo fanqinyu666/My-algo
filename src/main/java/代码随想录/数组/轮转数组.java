@@ -13,13 +13,18 @@ public class 轮转数组 {
     }
     //2.可以用一个环形链表，改变下标
 
+
+
     //3.O（1）空间解决，数学思维
     public void rotate2(int[] nums, int k) {
-        int ress = k % nums.length;
-        reverse(nums,0,nums.length);
-        reverse(nums,0,ress-1);
-        reverse(nums,ress+1,nums.length);
+        k %= nums.length;
+        //整体反转
+        reverse(nums, 0, nums.length - 1);
+        //下标K取余后，左右都反转一次
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, nums.length - 1);
     }
+
     public void reverse(int[] nums, int start, int end) {
         while (start < end) {
             int temp = nums[start];

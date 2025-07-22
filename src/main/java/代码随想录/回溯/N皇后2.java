@@ -1,10 +1,11 @@
 package 代码随想录.回溯;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
+
 //之前都是对一维数组进行回溯，现在是二维，我们还用一维的方式，
-public class N皇后 {
+//递归为行，单层为列
+public class N皇后2 {
 
     List<List<String>> res = new ArrayList<>();
 
@@ -19,34 +20,23 @@ public class N皇后 {
         return res;
     }
 
-
-    public void backTrack(int n, int row, char[][] chessboard) {
-        if (row == n) {
-            res.add(ArrayList2(chessboard));
+    public void backTrack(int n, int i, char[][] chessboard) {
+        //注意，n-1才是数组的长度，n就该收获结构了
+        if (i == n) {
+            res.add(toList(chessboard));
             return;
         }
-        for (int col = 0;col < n; ++col) {
-            //row是行，col是列，传入棋盘，再传入大小n（可以不传）
-            if (isValid (row, col, n, chessboard)) {
-                //如果合法，就传入Q，递归，回溯
-                chessboard[row][col] = 'Q';
-                backTrack(n, row+1, chessboard);
-                chessboard[row][col] = '.';
+        for (int j = 0;j < n; ++j) {
+            //判断合理性，如果合理就放皇后，下一层递归
+            //这样都不需要判断一行了
+            if (isValid (i, j, n, chessboard)) {
+                chessboard[i][j] = 'Q';
+                backTrack(n, i+1, chessboard);
+                chessboard[i][j] = '.';
             }
-            //不合法也就过了
         }
 
     }
-
-
-    public List ArrayList2(char[][] chessboard) {
-        List<String> list = new ArrayList<>();
-        for (char[] c : chessboard) {
-            list.add(String.copyValueOf(c));
-        }
-        return list;
-    }
-
 
     public boolean isValid(int row, int col, int n, char[][] chessboard) {
         // 检查列
@@ -70,4 +60,14 @@ public class N皇后 {
         }
         return true;
     }
+
+    //这个方法没啥，就是把二维数组变成字符串集合了
+    public List<String> toList(char[][] chessboard) {
+        List<String> list = new ArrayList<>();
+        for (char[] c : chessboard) {
+            list.add(String.copyValueOf(c));
+        }
+        return list;
+    }
+
 }

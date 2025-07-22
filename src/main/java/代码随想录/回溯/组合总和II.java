@@ -12,13 +12,15 @@ public class 组合总和II {
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         used = new boolean[candidates.length];
-        Arrays.fill(used, false);//将所有值变成false
+        Arrays.fill(used, false);
+        //将所有值变成false
         // 加标志数组，用来辅助判断同层节点是否已经遍历
 
         Arrays.sort(candidates);
         backTracking(candidates,target,0,0);
         return result;
     }
+
     private void backTracking(int[] candidates,int targetSum, int startIndex, int sum) {
         if(targetSum==sum){
             result.add(new ArrayList<>(path));

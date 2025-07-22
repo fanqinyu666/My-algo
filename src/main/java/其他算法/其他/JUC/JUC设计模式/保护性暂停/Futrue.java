@@ -23,6 +23,7 @@ public class Futrue {
                 guardedObject.comlete("完成啦");
             }
         }).start();
+
     }
 
 }
@@ -43,8 +44,6 @@ class GuardedObject{
             return response;
         }
     }
-
-
 
     public void comlete(Object response){
         synchronized (this){

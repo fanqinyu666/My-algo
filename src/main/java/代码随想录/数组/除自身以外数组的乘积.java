@@ -3,7 +3,7 @@ package 代码随想录.数组;
 import java.util.Arrays;
 
 public class 除自身以外数组的乘积 {
-
+    //也是前缀和
     public int[] productExceptSelf(int[] nums) {
         int[] l = new int[nums.length];
         int[] r = new int[nums.length];
@@ -12,6 +12,7 @@ public class 除自身以外数组的乘积 {
         for (int i=1;i<nums.length-1;i++){
             l[i]=l[i-1]*nums[i-1];
         }
+
         for (int i=nums.length-1;i>0;i--){
             r[i-1]=r[i]*nums[i];
         }

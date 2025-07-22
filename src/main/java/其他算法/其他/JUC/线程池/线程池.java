@@ -43,6 +43,7 @@ static class ThreadPool{
         this.unit = unit;
         taskQueue=new BufferQueue<>(queueSize);
     }
+
     //提交任务方法，传入一个Run
     private void execute(Runnable task){
         synchronized (this) {
@@ -107,8 +108,6 @@ static class BufferQueue<T>{
         public BufferQueue(int captity) {
             this.captity = captity;
         }
-
-
 
         //添加一个任务
         public void add(T message){
