@@ -7,6 +7,7 @@ public class 随机链表的复制 {
         HashMap<Node, Node> map= new HashMap<>();
         Node cur=head;
         while (cur!=null){
+            //核心，创建一个新节点
             map.put(cur,new Node(cur.val));
             cur = cur.next;
         }

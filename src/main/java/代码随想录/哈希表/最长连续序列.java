@@ -7,27 +7,25 @@ import java.util.Set;
 public class 最长连续序列 {
 
     public int longestConsecutive(int[] nums) {
-        int max=0;
-        HashSet<Integer> set = new HashSet<>();
-        for (int i = 0; i < nums.length; i++) {
-            set.add(nums[i]);
-        }
-
-
+        Set<Integer> num_set=new HashSet<Integer>();
         for (int num:nums) {
-
-            if(!set.contains(num)){
-                set.add(num);
+            num_set.add(num);
+        }
+        int result = 0;
+        //这里主要用set，不是原数组，可能会重复
+        for (int num:num_set) {
+            if(num_set.contains(num-1)){
+                continue;
             }
             int count=0;
-            int cur=num;
-            while(set.contains(cur-1)){
+            while(num_set.contains(num)){
                 count++;
-                cur--;
+                num++;
             }
-            max=Math.max(max,count);
+            result=Math.max(result,count);
+
         }
-    return max;
+        return result;
     }
 
 }

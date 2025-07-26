@@ -1,17 +1,17 @@
 package 代码随想录.链表;
 
 public class 合并K个升序链表 {
-
-
     //按照我的代码风格写出来的代码
-
+    //初始方法
     public ListNode mergeKLists(ListNode[] lists) {
         if(lists == null || lists.length == 0) return null;
         ListNode track = track(lists);
         return track;
     }
     public ListNode track(ListNode[] lists){
+        //终止条件
         if(lists.length==1)return lists[0];
+        //单层递归
         ListNode[] res = new ListNode[(lists.length + 1) / 2];
         for (int i=0;i<lists.length;i+=2) {
             ListNode[] listNodes = new ListNode[2];
@@ -24,9 +24,10 @@ public class 合并K个升序链表 {
             ListNode marge = marge(listNodes);
             res[i/2]=marge;
         }
+        //递归
         return track(res);
     }
-
+    //归并排序
     private ListNode marge(ListNode[] lists) {
         ListNode dummy=new ListNode();
         ListNode pre=dummy;

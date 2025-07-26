@@ -38,22 +38,25 @@ public class 矩阵置零 {
     }
     //第一行和第一列需要单独判断
     public void setZeroes2(int[][] matrix) {
+
         boolean isH=false;
         boolean isL=false;
 
+        //第一行是否有0
         for(int i=0;i<matrix.length;i++){
             if(matrix[i][0]==0){
                 isH=true;
                 break;
             }
         }
+        //第一列是否有0
         for(int i=0;i<matrix[0].length;i++){
             if(matrix[0][i]==0){
                 isL=true;
                 break;
             }
         }
-
+        //遍历从1.1开始的所有，哪里有0，把对于初始列/行设置为0
         for (int i=1;i<matrix.length;i++){
             for (int j=1;j<matrix[0].length;j++){
                 if(matrix[i][j]==0){
@@ -62,7 +65,7 @@ public class 矩阵置零 {
                 }
             }
         }
-
+        //把行置0
         for (int i=1;i<matrix.length;i++){
             if(matrix[i][0]==0){
                 for (int j=1;j<matrix[0].length;j++){
@@ -70,6 +73,7 @@ public class 矩阵置零 {
                 }
             }
         }
+        //把列置0
         for (int i=1;i<matrix[0].length;i++){
             if(matrix[0][i]==0){
                 for (int j=1;j<matrix.length;j++){
@@ -77,11 +81,13 @@ public class 矩阵置零 {
                 }
             }
         }
+        //第一行是否置0
         if(isH){
             for (int i=0;i<matrix.length;i++){
                 matrix[i][0]=0;
             }
         }
+        //第一列是否置0
         if(isL){
             for (int i=0;i<matrix[0].length;i++){
                 matrix[0][i]=0;

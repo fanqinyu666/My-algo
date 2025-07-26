@@ -15,9 +15,6 @@ class LRUCache {
         public DLinkedNode(int _key, int _value) {key = _key; value = _value;}
     }
 
-
-
-
     private Deque<Integer> deque;
     HashMap map=new HashMap<Integer,Integer>();
     private int capacity;

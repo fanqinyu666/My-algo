@@ -23,5 +23,23 @@ public class 删除链表的倒数第N个节点 {
         return dummyNode.next;
     }
 
+    public ListNode removeNthFromEnd2(ListNode head, int n) {
+        ListNode dummyNode = new ListNode();
+        dummyNode.next = head;
+        //这里不能是head，必须是dummyNode，没有考虑到n=链表长度，是删除头节点
+        ListNode cur =dummyNode;
+        ListNode pre =dummyNode;
+
+        for (;n>0;n--){
+            cur=cur.next;
+        }
+        if(cur==null)return null;
+        while (cur.next!=null){
+            pre=pre.next;
+            cur=cur.next;
+        }
+        pre.next=pre.next.next;
+        return dummyNode.next;
+    }
 
 }

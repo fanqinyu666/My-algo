@@ -8,6 +8,7 @@ public class Singleton  {
 
     public Singleton(){
         synchronized (Singleton.class){
+            //有的时候再走
             if(initialized||instance != null){
                 throw new RuntimeException("禁止反射破坏单例");
             }
@@ -27,4 +28,8 @@ public class Singleton  {
         }
         return instance;
     }
+
 }
+
+
+
