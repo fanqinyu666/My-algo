@@ -27,5 +27,26 @@ public class 二叉树展开为链表 {
         track(root.right);
     }
 
+    //空间复杂度O（1），前驱节点
+    public void flatten2(TreeNode root) {
+        TreeNode curr = root;
+        while (curr!=null){
+            //左节点不为空，操作
+            if (curr.left != null) {
+                //先保存原来的左右节点
+                TreeNode left = curr.left;
+                TreeNode right = curr.right;
+
+                left.right = right;
+                curr.right = left;
+                curr.left = null;
+                while (curr.left == null) {
+                    curr = curr.right;
+                }
+            }
+        }
+    }
+
+
 
 }

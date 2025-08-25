@@ -2,7 +2,6 @@ package 代码随想录.数组;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
 public class 合并区间 {
@@ -24,6 +23,7 @@ public class 合并区间 {
         ints.add(intervals[intervals.length-1]);
         return ints.toArray(new int[ints.size()][]);
     }
+
     public int[][] merge2(int[][] intervals) {
         //左-右永远是升序
         ArrayList<List<Integer>> lists = new ArrayList<>();

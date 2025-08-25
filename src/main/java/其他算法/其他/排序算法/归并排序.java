@@ -23,9 +23,12 @@ public class 归并排序 {
     void mergeSort(int[] nums, int left, int right) {
         if (left >= right)
             return;
-        int mid = left + (right - left) / 2; // 计算中点
-        mergeSort(nums, left, mid); // 递归左子数组
-        mergeSort(nums, mid + 1, right); // 递归右子数组
+        int mid = left + (right - left)
+                / 2; // 计算中点
+        mergeSort(nums, left, mid);
+        // 递归左子数组
+        mergeSort(nums, mid + 1, right);
+        // 递归右子数组
         // 合并阶段
         merge(nums, left, mid, right);
     }

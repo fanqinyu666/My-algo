@@ -3,7 +3,8 @@ package 代码随想录.二叉树;
 public class 将有序数组转换为二叉搜索树 {
 
     public TreeNode sortedArrayToBST(int[] nums) {
-        if (nums.length == 0) { // 处理空数组
+        if (nums.length == 0) {
+            //处理空数组
             return null;
         }
 
@@ -19,7 +20,8 @@ public class 将有序数组转换为二叉搜索树 {
         // 构建右子树数组
         int[] rightSub = new int[nums.length - mid - 1];
         for (int i = 0; i < rightSub.length; i++) {
-            rightSub[i] = nums[i + mid + 1]; // 修正索引错误
+            rightSub[i] = nums[i + mid + 1];
+            //修正索引错误
         }
 
         root.left = sortedArrayToBST(leftSub);

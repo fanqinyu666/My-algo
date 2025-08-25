@@ -39,7 +39,8 @@ public class MyLock implements Lock {
 
     @Override//加锁
     public void lock() {
-        sycn.tryAcquire(1);//这个变量不是可重入锁没用
+        sycn.tryAcquire(1);
+        //这个变量不是可重入锁没用
     }
 
     @Override//加可打断锁

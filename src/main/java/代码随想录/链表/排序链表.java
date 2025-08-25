@@ -29,25 +29,6 @@ public class 排序链表 {
         //最后合并
         return mergeTwoLists(first,second);
     }
-    //归并排序，很简单的
-    private ListNode marge(ListNode first, ListNode second) {
-        ListNode dummy=new ListNode();
-        ListNode pre=dummy;
-
-        while (first!=null&&second!=null){
-            int min = Math.min(first.val, second.val);
-            if(min ==first.val){
-                pre.next=first;
-                first=first.next;
-            }else {
-                pre.next=second;
-                second=second.next;
-            }
-            pre=pre.next;
-        }
-        pre.next = (first != null) ? first : second;
-        return dummy.next;
-    }
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode f1=list1,f2=list2;
         ListNode dummyhead=new ListNode();
@@ -74,4 +55,25 @@ public class 排序链表 {
         }
         return dummyhead.next;
     }
+
+    //归并排序，很简单的
+    private ListNode marge(ListNode first, ListNode second) {
+        ListNode dummy=new ListNode();
+        ListNode pre=dummy;
+
+        while (first!=null&&second!=null){
+            int min = Math.min(first.val, second.val);
+            if(min ==first.val){
+                pre.next=first;
+                first=first.next;
+            }else {
+                pre.next=second;
+                second=second.next;
+            }
+            pre=pre.next;
+        }
+        pre.next = (first != null) ? first : second;
+        return dummy.next;
+    }
+
 }

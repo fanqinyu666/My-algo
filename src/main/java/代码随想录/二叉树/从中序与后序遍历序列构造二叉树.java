@@ -40,7 +40,8 @@ public class 从中序与后序遍历序列构造二叉树 {
         }
         //右后序
         int[] rightpo = new int[rightin.length];
-        for (int i =0; i <rightin.length; i++) {//3
+        for (int i =0; i <rightin.length; i++) {
+            //3
             rightpo[i]=postorder[i+leftpo.length];
         }
 

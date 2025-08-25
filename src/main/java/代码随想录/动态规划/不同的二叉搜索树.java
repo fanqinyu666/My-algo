@@ -1,8 +1,6 @@
 package 代码随想录.动态规划;
 
 public class 不同的二叉搜索树 {
-
-
     public int numTrees(int n) {
         //初始化 dp 数组
         int[] dp = new int[n + 1];

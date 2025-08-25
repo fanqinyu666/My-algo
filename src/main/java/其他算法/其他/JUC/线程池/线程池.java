@@ -1,15 +1,9 @@
 package 其他算法.其他.JUC.线程池;
-
-
 import java.util.HashSet;
 import java.util.LinkedList;
-import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
-
-
-
 public class 线程池 {
     public static void main(String[] args) {
 
@@ -28,6 +22,7 @@ public class 线程池 {
 static class ThreadPool{
     //七大参数肯定要有
     private BufferQueue<Runnable> taskQueue;
+
     private HashSet<Workers> workers=new HashSet<>();
     //核心线程数
     private int coreSize;
@@ -81,7 +76,6 @@ static class ThreadPool{
                     task=null;
                 }
             }
-
             synchronized (workers) {
                 //到这里意思是没有队列无任务，手头也无任务，所以线程可以死了,直接去了当前this对象
                 //但是核心线程外面不用让他死
@@ -126,8 +120,6 @@ static class BufferQueue<T>{
                 lockS.unlock();
             }
         }
-
-
         //获取消息方法
         public T put(){
             lockX.lock();

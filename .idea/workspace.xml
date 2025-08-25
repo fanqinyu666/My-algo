@@ -4,40 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c1f6e5-399c-4e0a-8d6c-5158162e0982" name="Changes" comment="Hot100完整">
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/双指针/三数之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/双指针/接雨水.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/双指针/盛最多水的容器.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/双指针/移动零.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/子串/滑动窗口最大值.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/滑动窗口/找到字符串中所有字母异位词.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/滑动窗口/无重复字符的最长子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/Shopee一面.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/两数相加.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/合并两个有序链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/回文链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/相交链表.java" afterDir="false" />
+    <list default="true" id="93c1f6e5-399c-4e0a-8d6c-5158162e0982" name="Changes" comment="再次添加">
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/单词拆分.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/完全平方数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/打家劫舍.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/零钱兑换.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/哈希表/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/回溯/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/图论/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/子串/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/子串/最小覆盖子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/数组/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/数组/螺旋矩阵II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/栈/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/滑动窗口/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/CompalteFuture/CompalteFutureTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/CompalteFuture/CompalteFutureTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/CompalteFuture/CompalteFutureTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/CompalteFuture/futureTask测试.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/CompalteFuture/future加线程池.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/JUC设计模式/保护性暂停/Future4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/JUC设计模式/保护性暂停/Future5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/其他/H2O.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/其他/同步模式循序控制2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/其他/同步模式顺序控制3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/线程池/线程池3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/其他/多数元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/排序算法/快排.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/设计模式/单例/Singleton3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/设计模式/单例/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习/快排.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/哈希表/字母异味次分组.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/哈希表/字母异味次分组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/哈希表/最长连续序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/哈希表/最长连续序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/子串/和为K的子数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/子串/和为K的子数组.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/二叉树展开为链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/二叉树展开为链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/从中序与后序遍历序列构造二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/从中序与后序遍历序列构造二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/将有序数组转换为二叉搜索树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/将有序数组转换为二叉搜索树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/层序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/层序遍历.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/求二叉树所有路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/求二叉树所有路径.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/路径总和III.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/路径总和III.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/不同的二叉搜索树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/不同的二叉搜索树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/不同路径II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/不同路径II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/使用最小花费爬楼梯.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/使用最小花费爬楼梯.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/斐波那契数列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/斐波那契数列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/双指针/接雨水.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/双指针/接雨水.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/哈希表/两数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/哈希表/两数之和.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/数组/合并区间.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/数组/合并区间.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/数组/旋转图像.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/数组/旋转图像.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/数组/矩阵置零.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/数组/矩阵置零.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/数组/缺失的第一个正数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/数组/缺失的第一个正数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/链表/K个一组翻转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/K个一组翻转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/链表/两两交换链表中的节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/两两交换链表中的节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/链表/删除链表的倒数第N个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/删除链表的倒数第N个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/链表/反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/反转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/链表/合并K个升序链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/合并K个升序链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/数组/搜索二维矩阵II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/数组/搜索二维矩阵II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/数组/搜索旋转排序数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/数组/搜索旋转排序数组.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/数组/螺旋矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/数组/螺旋矩阵.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/栈/字符串解码.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/栈/字符串解码.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/滑动窗口/找到字符串中所有字母异位词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/滑动窗口/找到字符串中所有字母异位词.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/链表/Shopee一面.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/Shopee一面.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/链表/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/链表/排序链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/排序链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/链表/环形链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/环形链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/JUC设计模式/两阶段终止.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/JUC设计模式/两阶段终止.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/JUC设计模式/生产者消费者/生产者消费者.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/JUC设计模式/生产者消费者/生产者消费者.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/JUC设计模式/生产者消费者/生产者消费者2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/JUC设计模式/生产者消费者/生产者消费者2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/JUC设计模式/生产者消费者/生产者消费者3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/JUC设计模式/生产者消费者/生产者消费者3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/其他/同步模式循序控制.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/其他/同步模式循序控制.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/线程池/线程池.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/线程池/线程池.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/自定义锁AQS/MyLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/JUC/自定义锁AQS/MyLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/其他/排序算法/归并排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/排序算法/归并排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/其他/排序算法/快速排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/排序算法/快速排序.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/其他/设计模式/单例/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/设计模式/单例/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,7 +106,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/fanqinyu666/My-algo.git&quot;,
-    &quot;accountId&quot;: &quot;5899e18f-5355-4ec9-9aff-91d10ce783c6&quot;
+    &quot;accountId&quot;: &quot;5b94052c-970e-42d6-9206-e00bedb182fe&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -80,7 +120,11 @@
     <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/util/Set.java" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/jdk.unsupported/sun/misc/Unsafe.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/算法复习/DP复习/DP复习.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="none" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -93,6 +137,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Maven.hello-algo [-Dtest=算法复习.小练习.算法复习#小练习#test...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hello-algo [clean].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -102,7 +147,7 @@
     &quot;database.data.extractors.current.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Documents/QDownload/group-by-market-hz-2-3-250324-mhw-multi-thread (1)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/java lianxi/hello-algo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -115,6 +160,8 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.CompalteFutureTest1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CompalteFutureTest3.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.DP复习.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.Futrue.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.Future3.executor&quot;: &quot;Run&quot;,
@@ -129,9 +176,14 @@
     &quot;应用程序.买股票的最佳时机II.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.二分.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.二叉树的右视图.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.代码随想录.回溯.test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.代码随想录.子串.test.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.代码随想录.栈.test.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.信号量.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.同步模式.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.同步模式循序控制.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.同步模式循序控制2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.同步模式顺序控制3.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.同步等待多线程准备.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.寻找旋转排序数组中的最小值.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.寻找重复数.executor&quot;: &quot;Run&quot;,
@@ -165,14 +217,40 @@
       <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\堆heap\堆的基础" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="代码随想录.回溯" />
-      <recent name="算法复习.DP复习" />
-      <recent name="算法复习.小练习" />
-      <recent name="其他算法.其他.JUC.自定义锁AQS" />
-      <recent name="其他算法.其他.JUC.JUC设计模式" />
+      <recent name="其他算法.其他.设计模式.单例" />
+      <recent name="其他算法.其他.JUC.CompalteFuture" />
+      <recent name="代码随想录.动态规划" />
+      <recent name="其他算法.其他.JUC.其他" />
+      <recent name="其他算法.其他.JUC.线程池" />
     </key>
   </component>
   <component name="RunManager" selected="应用程序.DP复习">
+    <configuration name="同步模式循序控制" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="其他算法.其他.JUC.其他.同步模式循序控制" />
+      <module name="hello-algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="其他算法.其他.JUC.其他.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="同步模式循序控制2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="其他算法.其他.JUC.其他.同步模式循序控制2" />
+      <module name="hello-algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="其他算法.其他.JUC.其他.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DP复习" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="算法复习.DP复习.DP复习" />
       <module name="hello-algo" />
@@ -215,8 +293,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.trest.test" />
-        <item itemvalue="应用程序.DP复习" />
         <item itemvalue="应用程序.test" />
+        <item itemvalue="应用程序.同步模式循序控制" />
+        <item itemvalue="应用程序.DP复习" />
+        <item itemvalue="应用程序.同步模式循序控制2" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +309,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\20520\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="93c1f6e5-399c-4e0a-8d6c-5158162e0982" name="Changes" comment="" />
@@ -483,7 +566,47 @@
       <workItem from="1753272618052" duration="4165000" />
       <workItem from="1753324967142" duration="15629000" />
       <workItem from="1753406593719" duration="14500000" />
-      <workItem from="1753495365467" duration="2209000" />
+      <workItem from="1753495365467" duration="21841000" />
+      <workItem from="1753582518540" duration="17051000" />
+      <workItem from="1753662255564" duration="7918000" />
+      <workItem from="1753684876186" duration="5582000" />
+      <workItem from="1753756573034" duration="1220000" />
+      <workItem from="1753870361851" duration="1796000" />
+      <workItem from="1754051795290" duration="70000" />
+      <workItem from="1754051952276" duration="9000" />
+      <workItem from="1754051971112" duration="953000" />
+      <workItem from="1754053034675" duration="906000" />
+      <workItem from="1754053956729" duration="3480000" />
+      <workItem from="1754057711493" duration="70000" />
+      <workItem from="1754057791163" duration="2298000" />
+      <workItem from="1754060654361" duration="126000" />
+      <workItem from="1754130889405" duration="3019000" />
+      <workItem from="1754459683037" duration="854000" />
+      <workItem from="1754650612555" duration="468000" />
+      <workItem from="1754701620872" duration="3343000" />
+      <workItem from="1754706464957" duration="8496000" />
+      <workItem from="1754722766333" duration="983000" />
+      <workItem from="1754723776933" duration="5389000" />
+      <workItem from="1754812391363" duration="7771000" />
+      <workItem from="1754885131007" duration="4352000" />
+      <workItem from="1754993910121" duration="2589000" />
+      <workItem from="1755001644727" duration="6736000" />
+      <workItem from="1755067033816" duration="9000" />
+      <workItem from="1755077661851" duration="3854000" />
+      <workItem from="1755088706847" duration="3050000" />
+      <workItem from="1755138170628" duration="5517000" />
+      <workItem from="1755174285908" duration="8211000" />
+      <workItem from="1755224060681" duration="603000" />
+      <workItem from="1755265421525" duration="3220000" />
+      <workItem from="1755269321927" duration="1406000" />
+      <workItem from="1755315029439" duration="11939000" />
+      <workItem from="1755395721421" duration="13405000" />
+      <workItem from="1755477565051" duration="28255000" />
+      <workItem from="1755560090862" duration="9449000" />
+      <workItem from="1755669528408" duration="8000" />
+      <workItem from="1755911504664" duration="19451000" />
+      <workItem from="1755999941563" duration="18443000" />
+      <workItem from="1756079429514" duration="18196000" />
     </task>
     <task id="LOCAL-00001" summary="开启算法之旅">
       <option name="closed" value="true" />
@@ -533,7 +656,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753183052712</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="再次添加">
+      <option name="closed" value="true" />
+      <created>1753529674249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753529674249</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +685,8 @@
     <MESSAGE value="开启算法之旅" />
     <MESSAGE value="更正" />
     <MESSAGE value="Hot100完整" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hot100完整" />
+    <MESSAGE value="再次添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="再次添加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

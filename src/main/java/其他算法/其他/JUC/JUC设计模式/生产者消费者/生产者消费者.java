@@ -3,6 +3,7 @@ package 其他算法.其他.JUC.JUC设计模式.生产者消费者;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
+//最普通的阻塞队列
 public class 生产者消费者 {
 
     public static void main(String[] args) {
@@ -28,16 +29,15 @@ public class 生产者消费者 {
 
         int size=5;
         private BlockingQueue<Integer> blockingQueue=new LinkedBlockingQueue<>();
+
         private synchronized void add(int i) throws InterruptedException {
-            if (blockingQueue.size()>=size)
-                wait();
+            while (blockingQueue.size()>=size) wait();
             blockingQueue.add(i);
             notify();
         }
 
         private synchronized void remove() throws InterruptedException {
-            if (blockingQueue.size()==0)
-                wait();
+            if (blockingQueue.size()==0) wait();
             Integer remove = blockingQueue.remove();
             notify();
             System.out.println(remove);

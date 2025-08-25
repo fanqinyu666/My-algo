@@ -1,7 +1,5 @@
 package 代码随想录.数组;
 
-import java.util.HashMap;
-
 public class 搜索旋转排序数组 {
 
     public int search(int[] nums, int target) {
@@ -32,6 +30,7 @@ public class 搜索旋转排序数组 {
         }
         return -1;
     }
+
     //我自己思路的实现版本
     public static int search2(int[] nums, int target) {
         if (nums == null || nums.length == 0) return -1;

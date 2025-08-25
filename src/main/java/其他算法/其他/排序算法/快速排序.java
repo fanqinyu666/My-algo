@@ -14,7 +14,6 @@ public class 快速排序 {
         return i;
     }
 
-
     public void swap(int[] sum,int left,int right){
         int num = sum[left];
         sum[left]=sum[right];

@@ -2,7 +2,8 @@ package 其他算法.其他.JUC.JUC设计模式;
 
 public class 两阶段终止 {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, ClassNotFoundException {
+
         Thread ss = new Thread(new Runnable() {
             public void run() {
                 while (true) {

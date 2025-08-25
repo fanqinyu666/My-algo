@@ -3,11 +3,9 @@ package 其他算法.其他.JUC.其他;
 public class 同步模式循序控制 {
 
     final static Object lock=new Object();
-    static boolean is=false;
     static int biaoji=1;
 
     public static void main(String[] args) throws InterruptedException {
-        Object o = new Object();
         new Thread(new Runnable() {
             @Override
             public void run() {
