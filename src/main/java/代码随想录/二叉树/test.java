@@ -1,23 +1,30 @@
 package 代码随想录.二叉树;
 
+import java.util.HashMap;
+
 public class test {
 
-    public int res =Integer.MIN_VALUE;
-    public int maxPathSum(TreeNode root) {
-        brack(root);
-        return res;
+    int count=0;
+    long pre=0;
+    HashMap<Long,Integer> map=new HashMap<>();
+    public int pathSum(TreeNode root, long targetSum) {
+        map.put(0L,1);
+        track(root,targetSum);
+        return count;
     }
 
-    private int brack(TreeNode root) {
-        if(root==null)return 0;
-        int left = brack(root.left);
-        int right = brack(root.right);
-        int val = root.val;
-        if(left>0)val+=left;
-        if(left>0)val+=right;
-        //res=Math.max(res,left+right+root.val);
-        res=Math.max(res,val);
-        return Math.max(left,right)+root.val;
+    private void track(TreeNode root, long targetSum) {
+        if(root==null)return;
+
+        pre+=root.val;
+        if(map.containsKey(pre-targetSum)&&map.get(pre-targetSum)>0){
+            count+=map.get(pre-targetSum);
+        }
+        map.put(pre,map.getOrDefault(pre,0)+1);
+        track(root.left,targetSum);
+        track(root.right,targetSum);
+        map.put(pre,map.getOrDefault(pre,0)-1);
+        pre-=root.val;
     }
 
 }

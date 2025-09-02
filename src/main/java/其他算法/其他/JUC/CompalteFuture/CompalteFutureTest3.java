@@ -11,12 +11,12 @@ public class CompalteFutureTest3 {
             System.out.println("666");
             try {Thread.sleep(500);} catch (InterruptedException e) {throw new RuntimeException(e);}
             return 333;
-
+        //需要俩入参，一个是上一阶段的返回值，一个是可能出现的异常
         }).whenComplete((v,e)->{
             if(e==null){
                 System.out.println(v+"成功");
             }
-
+        //如果出现异常第一步
         }).exceptionally(e->{
             e.printStackTrace();
             System.out.println("有异常");
