@@ -3,6 +3,18 @@ import java.util.ArrayList;
 import java.util.List;
 public class test {
 
+    public int lengthOfLongestSubstring(String s) {
+        int left=0,right=0;
+        int count=0;
+        while (right<s.length()){
+
+
+
+
+
+        }
+        return count;
+    }
     public List<Integer> spiralOrder(int[][] matrix) {
         ArrayList<Integer> arrayList = new ArrayList<>();
         if (matrix.length == 0) return arrayList;
