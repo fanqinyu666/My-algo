@@ -4,49 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c1f6e5-399c-4e0a-8d6c-5158162e0982" name="Changes" comment="再次添加">
+    <list default="true" id="2cdd558f-9a78-4a6b-a40c-0d18a3bd83a4" name="更改" comment="w">
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/子串/tes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/删除有序数组中的重复项.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/移除元素.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/数组/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/数组/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/回溯/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/回溯/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/子串/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/子串/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/链表/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
-        <option value="Interface" />
-        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;fanqinyu666&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/fanqinyu666/My-algo.git&quot;,
-    &quot;accountId&quot;: &quot;5b94052c-970e-42d6-9206-e00bedb182fe&quot;
-  }
-}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/lang/NullPointerException.java" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
@@ -61,183 +46,30 @@
     <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/jdk.unsupported/sun/misc/Unsafe.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/算法复习/DP复习/DP复习.java" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="PerforceDirect.Settings">
-    <option name="CHARSET" value="none" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2kRxs0gUzoiNS3yJckZStQwPuIf" />
+  <component name="ProjectId" id="32ONSpfsnugE61I2o40aK1P9mU7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Maven.hello-algo [-Dtest=算法复习.小练习.算法复习#小练习#test...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.hello-algo [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
-    &quot;database.data.extractors.current.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/java lianxi/hello-algo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/java lianxi/hello-algo/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.CompalteFutureTest1.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.CompalteFutureTest3.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.DP复习.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.Futrue.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Future3.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.LRUCache.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.Shopee一面.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.Solution.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.UltimateSingleton.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.s123.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.trest.test.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.两阶段终止.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.买股票的最佳时机II.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.二分.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.二叉树的右视图.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.代码随想录.回溯.test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.代码随想录.子串.test.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.代码随想录.栈.test.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.信号量.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.同步模式.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.同步模式循序控制.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.同步模式循序控制2.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.同步模式顺序控制3.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.同步等待多线程准备.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.寻找旋转排序数组中的最小值.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.寻找重复数.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.数组中的第K个最大元素.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.滑动窗口最大值.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.电话号码.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.矩阵置零.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.算法复习.小练习.test.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.缺失的第一个正数.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.贪心.executor&quot;: &quot;Debug&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
-    ]
+    &quot;应用程序.同步模式循序控制.executor&quot;: &quot;Run&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="代码随想录.图论" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\排序\快速排序" />
-      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\栈与队列" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\动态规划\初探动态规划\记忆" />
-      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\动态规划\初探动态规划\暴力" />
-      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\分治\初见分治" />
-      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\搜索\查找右边界" />
-      <recent name="E:\java lianxi\hello-algo\src\main\java\org\itheima\hello算法\堆heap\堆的基础" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="其他算法.其他.设计模式.单例" />
-      <recent name="其他算法.其他.JUC.CompalteFuture" />
-      <recent name="代码随想录.动态规划" />
-      <recent name="其他算法.其他.JUC.其他" />
-      <recent name="其他算法.其他.JUC.线程池" />
-    </key>
-  </component>
-  <component name="RunManager" selected="应用程序.DP复习">
-    <configuration name="同步模式循序控制" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="其他算法.其他.JUC.其他.同步模式循序控制" />
-      <module name="hello-algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="其他算法.其他.JUC.其他.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="同步模式循序控制2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="其他算法.其他.JUC.其他.同步模式循序控制2" />
-      <module name="hello-algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="其他算法.其他.JUC.其他.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DP复习" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="算法复习.DP复习.DP复习" />
-      <module name="hello-algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="算法复习.DP复习.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="练习题.test" />
-      <module name="hello-algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="练习题.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="trest.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trest.test" />
-      <module name="hello-algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="应用程序.DP复习" />
-        <item itemvalue="应用程序.trest.test" />
-        <item itemvalue="应用程序.test" />
-        <item itemvalue="应用程序.同步模式循序控制" />
-        <item itemvalue="应用程序.同步模式循序控制2" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -246,387 +78,42 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\20520\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="93c1f6e5-399c-4e0a-8d6c-5158162e0982" name="Changes" comment="" />
-      <created>1723260392721</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1723260392721</updated>
-      <workItem from="1723260393761" duration="4871000" />
-      <workItem from="1723347573866" duration="898000" />
-      <workItem from="1723594993887" duration="4257000" />
-      <workItem from="1724378457405" duration="11628000" />
-      <workItem from="1724401997267" duration="9958000" />
-      <workItem from="1724459051378" duration="6971000" />
-      <workItem from="1724482222420" duration="1872000" />
-      <workItem from="1724484114075" duration="7392000" />
-      <workItem from="1724547916599" duration="4960000" />
-      <workItem from="1724582477934" duration="4152000" />
-      <workItem from="1724593988931" duration="34000" />
-      <workItem from="1724594032608" duration="55000" />
-      <workItem from="1724594097142" duration="1833000" />
-      <workItem from="1724641684344" duration="4517000" />
-      <workItem from="1724724538902" duration="4595000" />
-      <workItem from="1724894549737" duration="7761000" />
-      <workItem from="1724982560977" duration="11635000" />
-      <workItem from="1725067796484" duration="2765000" />
-      <workItem from="1725271621004" duration="2007000" />
-      <workItem from="1725322468347" duration="10184000" />
-      <workItem from="1725350323111" duration="8568000" />
-      <workItem from="1725433909817" duration="3442000" />
-      <workItem from="1725515071983" duration="49000" />
-      <workItem from="1725601798074" duration="1708000" />
-      <workItem from="1725760781162" duration="1318000" />
-      <workItem from="1725865742723" duration="163000" />
-      <workItem from="1725867365613" duration="25000" />
-      <workItem from="1726015783787" duration="39000" />
-      <workItem from="1726015829783" duration="7026000" />
-      <workItem from="1726036376066" duration="10000" />
-      <workItem from="1726036401367" duration="968000" />
-      <workItem from="1726192776810" duration="3734000" />
-      <workItem from="1726296286936" duration="4266000" />
-      <workItem from="1726617825985" duration="4964000" />
-      <workItem from="1726798629810" duration="6477000" />
-      <workItem from="1727223747138" duration="2376000" />
-      <workItem from="1727576295648" duration="4117000" />
-      <workItem from="1727590709207" duration="7000" />
-      <workItem from="1728432555440" duration="1597000" />
-      <workItem from="1728440597025" duration="954000" />
-      <workItem from="1728462651082" duration="6000" />
-      <workItem from="1729037334580" duration="173000" />
-      <workItem from="1729037516741" duration="4104000" />
-      <workItem from="1729218415929" duration="5446000" />
-      <workItem from="1730452013399" duration="41000" />
-      <workItem from="1737096293027" duration="415000" />
-      <workItem from="1737096720342" duration="8811000" />
-      <workItem from="1737164436550" duration="16324000" />
-      <workItem from="1737355112567" duration="12269000" />
-      <workItem from="1737534900670" duration="7111000" />
-      <workItem from="1737619963088" duration="8448000" />
-      <workItem from="1737681454572" duration="4307000" />
-      <workItem from="1737786795318" duration="12199000" />
-      <workItem from="1737858888017" duration="3224000" />
-      <workItem from="1737937377588" duration="12317000" />
-      <workItem from="1738503204442" duration="934000" />
-      <workItem from="1738652105111" duration="13966000" />
-      <workItem from="1738720338265" duration="12749000" />
-      <workItem from="1738762713893" duration="2131000" />
-      <workItem from="1738805259250" duration="1775000" />
-      <workItem from="1738811788594" duration="16336000" />
-      <workItem from="1738890389842" duration="10829000" />
-      <workItem from="1738905257916" duration="10297000" />
-      <workItem from="1738976641762" duration="27501000" />
-      <workItem from="1739063014097" duration="3658000" />
-      <workItem from="1739082007187" duration="13700000" />
-      <workItem from="1739151512755" duration="14861000" />
-      <workItem from="1739177035622" duration="6940000" />
-      <workItem from="1739239244988" duration="22389000" />
-      <workItem from="1739350472320" duration="13184000" />
-      <workItem from="1739494915534" duration="13581000" />
-      <workItem from="1739583944841" duration="13009000" />
-      <workItem from="1739609346094" duration="606000" />
-      <workItem from="1739685981086" duration="1252000" />
-      <workItem from="1741772332865" duration="1378000" />
-      <workItem from="1741832028786" duration="510000" />
-      <workItem from="1741877709893" duration="442000" />
-      <workItem from="1741925043028" duration="742000" />
-      <workItem from="1741940556815" duration="10642000" />
-      <workItem from="1742001513100" duration="5803000" />
-      <workItem from="1742108909997" duration="3879000" />
-      <workItem from="1742218027979" duration="1551000" />
-      <workItem from="1742263267047" duration="1197000" />
-      <workItem from="1742300549610" duration="3782000" />
-      <workItem from="1742352222790" duration="12268000" />
-      <workItem from="1742449895808" duration="11819000" />
-      <workItem from="1742535758408" duration="14644000" />
-      <workItem from="1742609216066" duration="15421000" />
-      <workItem from="1742694670058" duration="7195000" />
-      <workItem from="1742778917909" duration="638000" />
-      <workItem from="1742827418013" duration="396000" />
-      <workItem from="1742869466585" duration="4000" />
-      <workItem from="1742872969996" duration="3195000" />
-      <workItem from="1742907440966" duration="4343000" />
-      <workItem from="1742953185077" duration="27793000" />
-      <workItem from="1743037053503" duration="16353000" />
-      <workItem from="1743142325925" duration="22126000" />
-      <workItem from="1743213299062" duration="7577000" />
-      <workItem from="1743315309320" duration="1639000" />
-      <workItem from="1743404512660" duration="5790000" />
-      <workItem from="1743467544166" duration="11393000" />
-      <workItem from="1743487697713" duration="6000" />
-      <workItem from="1743573430238" duration="6032000" />
-      <workItem from="1743599191092" duration="1475000" />
-      <workItem from="1743651677267" duration="1481000" />
-      <workItem from="1743767415478" duration="8373000" />
-      <workItem from="1743859188778" duration="3191000" />
-      <workItem from="1743948933833" duration="807000" />
-      <workItem from="1744010398312" duration="1361000" />
-      <workItem from="1744014176862" duration="4180000" />
-      <workItem from="1744096187864" duration="16161000" />
-      <workItem from="1744167354311" duration="10515000" />
-      <workItem from="1744251162993" duration="10359000" />
-      <workItem from="1744338004573" duration="11771000" />
-      <workItem from="1744364145125" duration="6991000" />
-      <workItem from="1744423877356" duration="9348000" />
-      <workItem from="1744509639533" duration="7030000" />
-      <workItem from="1744595764908" duration="5607000" />
-      <workItem from="1744685999349" duration="661000" />
-      <workItem from="1744707364144" duration="6231000" />
-      <workItem from="1744783637721" duration="11007000" />
-      <workItem from="1744856072511" duration="7716000" />
-      <workItem from="1744955651611" duration="3093000" />
-      <workItem from="1744968695979" duration="8441000" />
-      <workItem from="1745050436114" duration="760000" />
-      <workItem from="1745150028962" duration="9076000" />
-      <workItem from="1745235996569" duration="1957000" />
-      <workItem from="1745316457192" duration="4589000" />
-      <workItem from="1745376129602" duration="13000" />
-      <workItem from="1745393735797" duration="14000" />
-      <workItem from="1745411953509" duration="1549000" />
-      <workItem from="1745458912280" duration="8661000" />
-      <workItem from="1745491405917" duration="7591000" />
-      <workItem from="1745547691418" duration="7704000" />
-      <workItem from="1745638890867" duration="9876000" />
-      <workItem from="1745736635968" duration="2919000" />
-      <workItem from="1745806349572" duration="3166000" />
-      <workItem from="1745929436127" duration="2389000" />
-      <workItem from="1745931873757" duration="94000" />
-      <workItem from="1745931979950" duration="312000" />
-      <workItem from="1745993139353" duration="4971000" />
-      <workItem from="1746328489648" duration="614000" />
-      <workItem from="1746414334705" duration="1374000" />
-      <workItem from="1746452873991" duration="2961000" />
-      <workItem from="1746527463485" duration="7030000" />
-      <workItem from="1746600231141" duration="10312000" />
-      <workItem from="1746671672691" duration="1809000" />
-      <workItem from="1746675786906" duration="8940000" />
-      <workItem from="1746758777764" duration="15583000" />
-      <workItem from="1746862085203" duration="10924000" />
-      <workItem from="1746929619334" duration="3563000" />
-      <workItem from="1747015104182" duration="819000" />
-      <workItem from="1747049368437" duration="5224000" />
-      <workItem from="1747124038946" duration="4831000" />
-      <workItem from="1747200069234" duration="5584000" />
-      <workItem from="1747278649856" duration="9863000" />
-      <workItem from="1747298552405" duration="3971000" />
-      <workItem from="1747448076702" duration="2541000" />
-      <workItem from="1747469497416" duration="1802000" />
-      <workItem from="1747531666015" duration="13614000" />
-      <workItem from="1747626854722" duration="13172000" />
-      <workItem from="1747665490986" duration="193000" />
-      <workItem from="1747727258115" duration="3650000" />
-      <workItem from="1747748609446" duration="4686000" />
-      <workItem from="1747788905108" duration="715000" />
-      <workItem from="1747794637267" duration="13354000" />
-      <workItem from="1747914025011" duration="4222000" />
-      <workItem from="1747979110832" duration="827000" />
-      <workItem from="1748094840491" duration="1374000" />
-      <workItem from="1748143392606" duration="1219000" />
-      <workItem from="1748224172224" duration="18330000" />
-      <workItem from="1748268912472" duration="1448000" />
-      <workItem from="1748309872951" duration="5613000" />
-      <workItem from="1748316437495" duration="4623000" />
-      <workItem from="1748330648839" duration="171000" />
-      <workItem from="1748416243367" duration="6824000" />
-      <workItem from="1748430520524" duration="3466000" />
-      <workItem from="1748499367713" duration="2367000" />
-      <workItem from="1748502487042" duration="7114000" />
-      <workItem from="1748517433282" duration="1552000" />
-      <workItem from="1748526161954" duration="34000" />
-      <workItem from="1748606390567" duration="4854000" />
-      <workItem from="1748689874739" duration="1570000" />
-      <workItem from="1748740652928" duration="710000" />
-      <workItem from="1748839376564" duration="14000" />
-      <workItem from="1748913843591" duration="4902000" />
-      <workItem from="1749036043515" duration="3073000" />
-      <workItem from="1749123515083" duration="3386000" />
-      <workItem from="1749431528162" duration="11912000" />
-      <workItem from="1749467063391" duration="625000" />
-      <workItem from="1749516569462" duration="9000" />
-      <workItem from="1749553504930" duration="6305000" />
-      <workItem from="1749605523764" duration="1281000" />
-      <workItem from="1749643209387" duration="4315000" />
-      <workItem from="1749875082254" duration="3196000" />
-      <workItem from="1750071735301" duration="9063000" />
-      <workItem from="1750082071817" duration="480000" />
-      <workItem from="1750082924248" duration="524000" />
-      <workItem from="1750153205117" duration="4650000" />
-      <workItem from="1750242590020" duration="3797000" />
-      <workItem from="1750295723184" duration="666000" />
-      <workItem from="1750302140541" duration="900000" />
-      <workItem from="1750309374821" duration="5000" />
-      <workItem from="1750321789279" duration="2908000" />
-      <workItem from="1750378840995" duration="5000" />
-      <workItem from="1750379446718" duration="8000" />
-      <workItem from="1750382404212" duration="289000" />
-      <workItem from="1750390715810" duration="10900000" />
-      <workItem from="1750412396330" duration="2000" />
-      <workItem from="1750563320016" duration="11000" />
-      <workItem from="1750602199770" duration="3659000" />
-      <workItem from="1750640408713" duration="8571000" />
-      <workItem from="1750669833714" duration="1462000" />
-      <workItem from="1750677219106" duration="6000" />
-      <workItem from="1750752631571" duration="1425000" />
-      <workItem from="1750754761834" duration="8011000" />
-      <workItem from="1750918952929" duration="1219000" />
-      <workItem from="1751330817643" duration="806000" />
-      <workItem from="1751331829255" duration="329000" />
-      <workItem from="1751332170422" duration="226000" />
-      <workItem from="1751332419991" duration="3413000" />
-      <workItem from="1751421587140" duration="3446000" />
-      <workItem from="1751504740381" duration="7249000" />
-      <workItem from="1751592879008" duration="708000" />
-      <workItem from="1751684126952" duration="967000" />
-      <workItem from="1751695507008" duration="5415000" />
-      <workItem from="1751781832659" duration="5635000" />
-      <workItem from="1751852975430" duration="21139000" />
-      <workItem from="1751946693273" duration="5194000" />
-      <workItem from="1751964583509" duration="23000" />
-      <workItem from="1752202354369" duration="8096000" />
-      <workItem from="1752323841182" duration="1199000" />
-      <workItem from="1752462113745" duration="110000" />
-      <workItem from="1752464757892" duration="1372000" />
-      <workItem from="1752468149407" duration="1351000" />
-      <workItem from="1752627683410" duration="31325000" />
-      <workItem from="1752715181646" duration="14000" />
-      <workItem from="1752799179312" duration="10771000" />
-      <workItem from="1752975651648" duration="6643000" />
-      <workItem from="1753009296339" duration="3354000" />
-      <workItem from="1753058663875" duration="3653000" />
-      <workItem from="1753149097315" duration="10304000" />
-      <workItem from="1753232565645" duration="3767000" />
-      <workItem from="1753254551522" duration="773000" />
-      <workItem from="1753272618052" duration="4165000" />
-      <workItem from="1753324967142" duration="15629000" />
-      <workItem from="1753406593719" duration="14500000" />
-      <workItem from="1753495365467" duration="21841000" />
-      <workItem from="1753582518540" duration="17051000" />
-      <workItem from="1753662255564" duration="7918000" />
-      <workItem from="1753684876186" duration="5582000" />
-      <workItem from="1753756573034" duration="1220000" />
-      <workItem from="1753870361851" duration="1796000" />
-      <workItem from="1754051795290" duration="70000" />
-      <workItem from="1754051952276" duration="9000" />
-      <workItem from="1754051971112" duration="953000" />
-      <workItem from="1754053034675" duration="906000" />
-      <workItem from="1754053956729" duration="3480000" />
-      <workItem from="1754057711493" duration="70000" />
-      <workItem from="1754057791163" duration="2298000" />
-      <workItem from="1754060654361" duration="126000" />
-      <workItem from="1754130889405" duration="3019000" />
-      <workItem from="1754459683037" duration="854000" />
-      <workItem from="1754650612555" duration="468000" />
-      <workItem from="1754701620872" duration="3343000" />
-      <workItem from="1754706464957" duration="8496000" />
-      <workItem from="1754722766333" duration="983000" />
-      <workItem from="1754723776933" duration="5389000" />
-      <workItem from="1754812391363" duration="7771000" />
-      <workItem from="1754885131007" duration="4352000" />
-      <workItem from="1754993910121" duration="2589000" />
-      <workItem from="1755001644727" duration="6736000" />
-      <workItem from="1755067033816" duration="9000" />
-      <workItem from="1755077661851" duration="3854000" />
-      <workItem from="1755088706847" duration="3050000" />
-      <workItem from="1755138170628" duration="5517000" />
-      <workItem from="1755174285908" duration="8211000" />
-      <workItem from="1755224060681" duration="603000" />
-      <workItem from="1755265421525" duration="3220000" />
-      <workItem from="1755269321927" duration="1406000" />
-      <workItem from="1755315029439" duration="11939000" />
-      <workItem from="1755395721421" duration="13405000" />
-      <workItem from="1755477565051" duration="28255000" />
-      <workItem from="1755560090862" duration="9449000" />
-      <workItem from="1755669528408" duration="8000" />
-      <workItem from="1755911504664" duration="19451000" />
-      <workItem from="1755999941563" duration="18443000" />
-      <workItem from="1756079429514" duration="19014000" />
-      <workItem from="1756306832275" duration="19000" />
-      <workItem from="1756518593129" duration="15278000" />
-      <workItem from="1756818589025" duration="3069000" />
-      <workItem from="1756902144699" duration="6755000" />
-      <workItem from="1756995147084" duration="3129000" />
-      <workItem from="1757077200004" duration="2343000" />
-      <workItem from="1757086437574" duration="555000" />
-      <workItem from="1757114669608" duration="10359000" />
-    </task>
-    <task id="LOCAL-00001" summary="开启算法之旅">
+    <task id="LOCAL-00001" summary="w">
       <option name="closed" value="true" />
-      <created>1724986690083</created>
+      <created>1757233047383</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1724986690083</updated>
+      <updated>1757233047383</updated>
     </task>
-    <task id="LOCAL-00002" summary="更正">
-      <option name="closed" value="true" />
-      <created>1726036448070</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1726036448070</updated>
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="2cdd558f-9a78-4a6b-a40c-0d18a3bd83a4" name="更改" comment="w" />
+      <created>1757287667026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757287667026</updated>
+      <workItem from="1757287669264" duration="8936000" />
+      <workItem from="1757344275580" duration="702000" />
+      <workItem from="1757377919030" duration="15535000" />
+      <workItem from="1757418429566" duration="1816000" />
+      <workItem from="1757554832754" duration="2904000" />
+      <workItem from="1757843343584" duration="1749000" />
+      <workItem from="1757845898401" duration="1366000" />
+      <workItem from="1757898337240" duration="1413000" />
+      <workItem from="1757927128854" duration="509000" />
+      <workItem from="1757952628063" duration="204000" />
+      <workItem from="1757983998644" duration="165000" />
+      <workItem from="1757984171585" duration="81000" />
+      <workItem from="1757984269269" duration="27634000" />
+      <workItem from="1758025137692" duration="1357000" />
+      <workItem from="1758071125761" duration="2872000" />
+      <workItem from="1758085374378" duration="4019000" />
+      <workItem from="1758111539193" duration="1198000" />
+      <workItem from="1758165861708" duration="684000" />
+      <workItem from="1758466761453" duration="752000" />
     </task>
-    <task id="LOCAL-00003" summary="更正">
-      <option name="closed" value="true" />
-      <created>1746671754721</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1746671754721</updated>
-    </task>
-    <task id="LOCAL-00004" summary="更正">
-      <option name="closed" value="true" />
-      <created>1746671829272</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1746671829272</updated>
-    </task>
-    <task id="LOCAL-00005" summary="更正">
-      <option name="closed" value="true" />
-      <created>1751684151264</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1751684151264</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Hot100完整">
-      <option name="closed" value="true" />
-      <created>1753183052712</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1753183052712</updated>
-    </task>
-    <task id="LOCAL-00007" summary="再次添加">
-      <option name="closed" value="true" />
-      <created>1753529674249</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1753529674249</updated>
-    </task>
-    <task id="LOCAL-00008" summary="再次添加">
-      <option name="closed" value="true" />
-      <created>1756110823355</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1756110823355</updated>
-    </task>
-    <task id="LOCAL-00009" summary="再次添加">
-      <option name="closed" value="true" />
-      <created>1756820748889</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1756820748889</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,35 +131,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="开启算法之旅" />
-    <MESSAGE value="更正" />
-    <MESSAGE value="Hot100完整" />
-    <MESSAGE value="再次添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="再次添加" />
+    <MESSAGE value="w" />
+    <option name="LAST_COMMIT_MESSAGE" value="w" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/代码随想录/栈/逆波兰表达式.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="代码随想录.链表.ListNode" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
