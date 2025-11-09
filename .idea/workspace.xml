@@ -4,18 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cdd558f-9a78-4a6b-a40c-0d18a3bd83a4" name="更改" comment="w">
-      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/子串/tes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/删除有序数组中的重复项.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/移除元素.java" afterDir="false" />
+    <list default="true" id="5bf9f313-f0d1-4ca7-b3c7-5504b4f80590" name="更改" comment="fisrt">
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/双指针/两数之和II输入有序数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/双指针/判断子序列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/双指针/盛最多水的容器.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/双指针/验证回文串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/H指数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/买卖股票的最佳时机.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/删除有序数组中的重复项II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/合并两个有序数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/多数元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/找出字符串中第一个匹配项的下标.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/最后一个单词的长度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/最长公共前缀.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/跳跃游戏.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/跳跃游戏II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/轮转数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/面试经典150/滑动窗口/长度最小的子数组.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/回溯/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/回溯/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/子串/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/子串/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/链表/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/链表/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/其他/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/其他/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/删除有序数组中的重复项.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/面试经典150/数组字符串/删除有序数组中的重复项.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,44 +40,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/lang/NullPointerException.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/lang/StringBuffer.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/lang/Thread.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/util/Comparator.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/util/PriorityQueue.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/util/Set.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/JDK/jdk-17/lib/src.zip!/jdk.unsupported/sun/misc/Unsafe.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/算法复习/DP复习/DP复习.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fanqinyu666&quot;
+  }
 }</component>
-  <component name="ProjectId" id="32ONSpfsnugE61I2o40aK1P9mU7" />
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/fanqinyu666/My-algo.git&quot;,
+    &quot;accountId&quot;: &quot;b2a9a85b-9f78-40b1-a4f2-9f0290e13468&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="35DrstTQ1dOXjqJGHvYIdIYPHZ7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.同步模式.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.同步模式循序控制.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,60 +82,19 @@
     </attachedChunks>
   </component>
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="w">
-      <option name="closed" value="true" />
-      <created>1757233047383</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1757233047383</updated>
-    </task>
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="2cdd558f-9a78-4a6b-a40c-0d18a3bd83a4" name="更改" comment="w" />
-      <created>1757287667026</created>
+      <changelist id="5bf9f313-f0d1-4ca7-b3c7-5504b4f80590" name="更改" comment="fisrt" />
+      <created>1762655694956</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1757287667026</updated>
-      <workItem from="1757287669264" duration="8936000" />
-      <workItem from="1757344275580" duration="702000" />
-      <workItem from="1757377919030" duration="15535000" />
-      <workItem from="1757418429566" duration="1816000" />
-      <workItem from="1757554832754" duration="2904000" />
-      <workItem from="1757843343584" duration="1749000" />
-      <workItem from="1757845898401" duration="1366000" />
-      <workItem from="1757898337240" duration="1413000" />
-      <workItem from="1757927128854" duration="509000" />
-      <workItem from="1757952628063" duration="204000" />
-      <workItem from="1757983998644" duration="165000" />
-      <workItem from="1757984171585" duration="81000" />
-      <workItem from="1757984269269" duration="27634000" />
-      <workItem from="1758025137692" duration="1357000" />
-      <workItem from="1758071125761" duration="2872000" />
-      <workItem from="1758085374378" duration="4019000" />
-      <workItem from="1758111539193" duration="1198000" />
-      <workItem from="1758165861708" duration="684000" />
-      <workItem from="1758466761453" duration="752000" />
+      <updated>1762655694956</updated>
+      <workItem from="1762655697101" duration="1925000" />
+      <workItem from="1762683641620" duration="2491000" />
     </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="w" />
-    <option name="LAST_COMMIT_MESSAGE" value="w" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
