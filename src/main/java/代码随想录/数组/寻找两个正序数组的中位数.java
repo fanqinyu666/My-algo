@@ -6,46 +6,30 @@ import java.util.Collections;
 
 public class 寻找两个正序数组的中位数 {
 
-    /*public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int m = nums1.length;
-        int n = nums2.length;
-        int left=0,right=nums1.length-1;
-
-
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        //天才，这样就可以实现类似互换的逻辑了！
+        if (nums1.length > nums2.length) {
+            return findMedianSortedArrays(nums2, nums1);
+        }
+        int m = nums1.length, n = nums2.length;
+        int left = 0, right = m;
         while (left <= right) {
-            int i = (left + right) / 2;
+            int i = left + (right - left) / 2;
             int j = (m + n + 1) / 2 - i;
-            //绳子完全在下面或者上面
-
-            //num1的分割点i，如果等于0，说明绳子完全在下面
-            if(i==0){
-                //那就把左边设置为负无穷
-                int left1=Integer.MIN_VALUE;
-            }else {
-                int left1=nums1[i-1];
-            }
-            //num1的分割点i，如果等于m，说明绳子完全在上面面
-            if(i==m){
-
-                int right1=Integer.MAX_VALUE;
-            }else {
-                int right1=nums1[i];
-            }
-
-
-            if(nums1[i-1]>nums2[j]){
-                right=i-1;
-            }
-            if(nums2[j-1]>nums1[i]){
-                left=i+1;
-            }
-            if(nums1[i-1]<=nums2[j]&&nums2[j-1]<=nums1[i]){
-                if((m+n)%2==1){
-                    return max(left1,left2);
-                }
-
+            int left1 = (i == 0) ? Integer.MIN_VALUE : nums1[i - 1];
+            int right1 = (i == m) ? Integer.MAX_VALUE : nums1[i];
+            int left2 = (j == 0) ? Integer.MIN_VALUE : nums2[j - 1];
+            int right2 = (j == n) ? Integer.MAX_VALUE : nums2[j];
+            if (left1 <= right2 && left2 <= right1) {
+                if ((m + n) % 2 == 1) return Math.max(left1, left2);
+                return (Math.max(left1, left2) + Math.min(right1, right2)) / 2.0;
+            } else if (left1 > right2) {
+                right = i - 1;
+            } else {
+                left = i + 1;
             }
         }
-    }*/
+        return 0;
+    }
 
 }
