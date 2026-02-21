@@ -1,7 +1,5 @@
 package 代码随想录.数组;
 
-import java.util.HashSet;
-
 public class 缺失的第一个正数 {
 
     public static void main(String[] args) {

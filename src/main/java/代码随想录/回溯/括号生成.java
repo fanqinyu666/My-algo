@@ -1,7 +1,6 @@
 package 代码随想录.回溯;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class 括号生成 {

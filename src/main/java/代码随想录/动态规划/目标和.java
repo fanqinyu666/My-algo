@@ -1,9 +1,5 @@
 package 代码随想录.动态规划;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
 public class 目标和 {
 
     int count = 0;

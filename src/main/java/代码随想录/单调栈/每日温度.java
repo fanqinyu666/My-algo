@@ -1,9 +1,7 @@
 package 代码随想录.单调栈;
 
-import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Stack;
 
 public class 每日温度 {
     public int[] dailyTemperatures(int[] temperatures) {

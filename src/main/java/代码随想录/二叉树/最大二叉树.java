@@ -1,7 +1,5 @@
 package 代码随想录.二叉树;
 
-import java.util.Arrays;
-
 public class 最大二叉树 {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         if(nums.length==1){//这道题数组不为空，不需要为空判断

@@ -1,7 +1,6 @@
 package 代码随想录.栈;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 

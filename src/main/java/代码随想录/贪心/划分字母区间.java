@@ -1,9 +1,5 @@
 package 代码随想录.贪心;
 
-import org.itheima.hello数据结构.数组与链表.列表.list;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 

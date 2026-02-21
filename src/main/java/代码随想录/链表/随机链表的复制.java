@@ -1,6 +1,6 @@
 package 代码随想录.链表;
 import java.util.HashMap;
-import 代码随想录.链表.Node;
+
 public class 随机链表的复制 {
 
     public Node copyRandomList(Node head) {

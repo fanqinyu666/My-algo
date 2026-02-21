@@ -1,11 +1,7 @@
 package 代码随想录.二叉树;
 
-import org.itheima.hello数据结构.栈与队列.stack;
-import 代码随想录.贪心.买股票的最佳时机II;
-
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Stack;
 
 public class 二叉搜索树中第K小的元素 {
 

@@ -1,8 +1,5 @@
 package 代码随想录.贪心;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.stream.IntStream;
 
 public class K次取反后最大化的数组和 {

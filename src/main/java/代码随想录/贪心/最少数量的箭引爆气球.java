@@ -1,7 +1,6 @@
 package 代码随想录.贪心;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class 最少数量的箭引爆气球 {
 

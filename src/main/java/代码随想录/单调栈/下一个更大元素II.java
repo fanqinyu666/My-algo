@@ -1,7 +1,6 @@
 package 代码随想录.单调栈;
 
 import java.util.Deque;
-import java.util.HashMap;
 import java.util.LinkedList;
 
 public class 下一个更大元素II {

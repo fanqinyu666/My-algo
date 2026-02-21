@@ -1,7 +1,5 @@
 package 代码随想录.二叉树;
 
-import 代码随想录.链表.ListNode;
-
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;

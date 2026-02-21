@@ -1,7 +1,5 @@
 package 代码随想录.数组;
 
-import java.util.concurrent.ThreadPoolExecutor;
-
 public class 二分查找 {
 
     public int search(int[] nums, int target) {

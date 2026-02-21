@@ -1,6 +1,5 @@
 package 代码随想录.二叉树;
 
-import 代码随想录.二叉树.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,7 +1,5 @@
 package 代码随想录.链表;
 
-import 代码随想录.栈.前K个高频元素;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,9 +1,5 @@
 package 代码随想录.数组;
 
-import com.sun.jdi.connect.spi.Connection;
-
-import java.util.Collections;
-
 public class 寻找两个正序数组的中位数 {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

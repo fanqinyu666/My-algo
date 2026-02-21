@@ -1,7 +1,5 @@
 package 代码随想录.栈;
 
-import java.util.Deque;
-import java.util.LinkedList;
 import java.util.Stack;
 
 public class 删除字符串中的所有相邻重复项 {

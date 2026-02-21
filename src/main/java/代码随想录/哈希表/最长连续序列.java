@@ -1,7 +1,6 @@
 package 代码随想录.哈希表;
 
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 public class 最长连续序列 {

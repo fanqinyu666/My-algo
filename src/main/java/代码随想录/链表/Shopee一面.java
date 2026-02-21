@@ -1,7 +1,5 @@
 package 代码随想录.链表;
 
-import java.util.HashMap;
-
 public class Shopee一面 {
     public static void main(String[] args) {
 

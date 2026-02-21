@@ -2,8 +2,6 @@ package 代码随想录.链表;
 
 import java.util.Deque;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
 
 class LRUCache {
     class DLinkedNode {

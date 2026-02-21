@@ -1,5 +1,5 @@
 package 代码随想录.双指针;
-import 代码随想录.链表.ListNode;
+
 public class 移除元素 {
     public int removeElement(int[] nums, int val) {
         int slow=0;

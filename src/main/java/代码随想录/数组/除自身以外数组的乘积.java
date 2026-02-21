@@ -1,7 +1,5 @@
 package 代码随想录.数组;
 
-import java.util.Arrays;
-
 public class 除自身以外数组的乘积 {
     //也是前缀和
     public int[] productExceptSelf(int[] nums) {

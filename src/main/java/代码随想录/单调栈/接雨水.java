@@ -2,7 +2,6 @@ package 代码随想录.单调栈;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Map;
 import java.util.Stack;
 
 public class 接雨水 {

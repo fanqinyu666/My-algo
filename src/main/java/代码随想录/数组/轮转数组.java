@@ -1,8 +1,5 @@
 package 代码随想录.数组;
 
-import java.sql.Connection;
-import java.util.Arrays;
-
 public class 轮转数组 {
     //1.用一个数组里存变的，然后复制回去
     public void rotate(int[] nums, int k) {

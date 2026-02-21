@@ -1,7 +1,5 @@
 package 代码随想录.链表;
 
-import java.util.List;
-
 public class 归并排序 {
 
     public ListNode sortList(ListNode head) {

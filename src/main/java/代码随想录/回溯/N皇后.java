@@ -1,7 +1,6 @@
 package 代码随想录.回溯;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 //之前都是对一维数组进行回溯，现在是二维，我们还用一维的方式，
 public class N皇后 {
