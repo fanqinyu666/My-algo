@@ -1,4 +1,4 @@
-package 其他算法.JUC.JUC设计模式;
+package 其他算法.JUC.JUC设计模式.两阶段终止;
 
 public class 两阶段终止 {
 
@@ -38,8 +38,9 @@ public class 两阶段终止 {
                         System.out.println("<UNK>");
                         break;
                     }
-                    System.out.println("kal");
+
                     try {
+                        System.out.println("kal");
                         Thread.sleep(1);
                     } catch (InterruptedException e) {
                         //这里不需要了

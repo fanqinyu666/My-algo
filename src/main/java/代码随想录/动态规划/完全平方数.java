@@ -9,7 +9,6 @@ public class 完全平方数 {
         Arrays.fill(dp, Integer.MAX_VALUE);
         dp[0] = 0;
         dp[1] = 1;
-
         for (int i = 2; i < dp.length; i++) {
             for (int j = 1; j * j < i; j++) {
                 dp[i] = Math.min(dp[j], dp[i - j * j] + 1);

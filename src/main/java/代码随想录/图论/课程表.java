@@ -4,6 +4,40 @@ import java.util.*;
 
 public class 课程表 {
 
+    //课程数，课程关系
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        //存储图关系，需要用一个二维数组
+        List<List<Integer>> edges = new ArrayList<List<Integer>>();
+        //数组，存储的是入度
+        int[] nums = new int[numCourses];
+        for (int i = 0; i < numCourses; ++i)edges.add(new ArrayList<Integer>());//初始化
+
+        //遍历prerequisites
+        for (int[] ints : prerequisites) {
+            List<Integer> integers = edges.get(ints[1]);//找到前置课程（出度）
+            integers.add(ints[0]);//（加入出度）
+            nums[ints[0]]++;//入度+1
+        }
+
+        Queue<Integer> queue = new LinkedList<Integer>();
+        //入度=0，将其存入队列
+        for (int i = 0; i <numCourses; i++) if(nums[i] == 0)queue.offer(i);
+
+        int count = 0;
+        while (!queue.isEmpty()) {
+            count++;
+            //取出0，去掉他后，把它对应的出度的元素-1
+            Integer poll = queue.poll();
+            for (int edge : edges.get(poll)) {
+                nums[edge]--;
+                //他出度的元素=0，就存入队列
+                if(nums[edge] == 0)queue.offer(edge);
+            }
+        }
+
+        return count == numCourses;
+    }
+
     public boolean canFinish2(int numCourses, int[][] prerequisites) {
         int[] ints = new int[numCourses];
         HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
@@ -42,38 +76,5 @@ public class 课程表 {
     }
 
 
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> edges= new ArrayList<List<Integer>>();
-        //二维集合
-        int[] indeg = new int[numCourses];
-        //数组
-        //这种方法取巧了，因为他确定，就是整数升序排序，不会出现100，200这种可以用他，不然就用hashmap
-        for (int i = 0; i < numCourses; ++i) {
-            edges.add(new ArrayList<Integer>());
-        }
-        //遍历prerequisites
-        for (int[] info : prerequisites) {
-            edges.get(info[1]).add(info[0]);
-            ++indeg[info[0]];
-        }
-        Queue<Integer> queue = new LinkedList<Integer>();
-        for (int i = 0; i < numCourses; ++i) {
-            if (indeg[i] == 0) {
-                queue.offer(i);
-            }
-        }
-        int visited = 0;
-        while (!queue.isEmpty()) {
-            ++visited;
-            int u = queue.poll();
-            for (int v: edges.get(u)) {
-                --indeg[v];
-                if (indeg[v] == 0) {
-                    queue.offer(v);
-                }
-            }
-        }
-        return visited == numCourses;
-    }
 
 }
