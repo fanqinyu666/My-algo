@@ -5,40 +5,58 @@ import java.util.*;
 
 public class test5 {
 
+    class Trie {
+        //数组，他是个多叉树
+        private Trie[] children;
 
+        private boolean isEnd;
 
-    //                          课程数             课程关系
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        //存储图关系，需要用一个二维数组
-        List<List<Integer>> edges = new ArrayList<List<Integer>>();
-        //数组，存储的是入度
-        int[] nums = new int[numCourses];
-        for (int i = 0; i < numCourses; ++i)edges.add(new ArrayList<Integer>());//初始化
-
-        //遍历prerequisites
-        for (int[] ints : prerequisites) {
-            List<Integer> integers = edges.get(ints[1]);//找到前置课程（出度）
-            integers.add(ints[0]);//（加入出度）
-            nums[ints[0]]++;//入度+1
+        public Trie() {
+            //26个
+            children = new Trie[26];
+            //是否时末尾节点
+            isEnd = false;
         }
 
-        Queue<Integer> queue = new LinkedList<Integer>();
-        //入度=0，将其存入队列
-        for (int i = 0; i <numCourses; i++) if(nums[i] == 0)queue.offer(i);
+        public void insert(String word){
+            //得到根节点
+            Trie node = this;
+            for (int i = 0; i < word.length(); i++) {
+                char c = word.charAt(i);
+                int index = c - 'a';
 
-        int count = 0;
-        while (!queue.isEmpty()) {
-            count++;
-            //取出0，去掉他后，把它对应的出度的元素-1
-            Integer poll = queue.poll();
-            for (int edge : edges.get(poll)) {
-                nums[edge]--;
-                //他出度的元素=0，就存入队列
-                if(nums[edge] == 0)queue.offer(edge);
+
             }
+            //一直到最后一个值，设置为true
+            node.isEnd = true;
         }
 
-        return count == numCourses;
+        public boolean search(String word) {
+            //找到这个节点
+            Trie node = searchPrefix(word);
+            //必须有这个节点+这个节点最后一个是true
+            return node != null && node.isEnd;
+        }
+
+        private Trie searchPrefix(String prefix) {
+            Trie node = this;
+            for (int i = 0; i < prefix.length(); i++) {
+                char ch = prefix.charAt(i);
+                int index = ch - 'a';
+                if (node.children[index] == null) {
+                    return null;
+                }
+                node = node.children[index];
+            }
+            return node;
+        }
+        public boolean startsWith(String prefix) {
+            //只要路径里有他即可
+            return searchPrefix(prefix) != null;
+        }
+
+
+
     }
 
 }

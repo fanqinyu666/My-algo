@@ -1,87 +1,73 @@
-package 其他算法.JUC.其他;
+package 其他算法.JUC.JUC设计模式.同步模式;
 
-public class 同步模式循序控制 {
+public class 同步模式循序控制2 {
 
-    final static Object lock=new Object();
-    static int biaoji=1;
+    private static final Object lock=new Object();
+    private static int task=1;
 
     public static void main(String[] args) throws InterruptedException {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                synchronized (lock){
-                    while (true) {
-                        while (biaoji!=1){
-                            try {
-                                lock.wait();
-                            } catch (InterruptedException e) {
-                                throw new RuntimeException(e);
-                            }
-                        }
-                        System.out.println("1");
-                        biaoji=2;
-                        try {
-                            Thread.sleep(50);
-                        } catch (InterruptedException e) {
-                            throw new RuntimeException(e);
-                        }
-                        lock.notifyAll();
-                    }
-                }
-            }
-        },"t1").start();
 
         new Thread(new Runnable() {
             @Override
             public void run() {
-                synchronized (lock){
-                    while (true) {
-                        while (biaoji!=2){
+                while (true) {
+                    synchronized (lock) {
+                        while (task != 1) {
                             try {
                                 lock.wait();
                             } catch (InterruptedException e) {
                                 throw new RuntimeException(e);
                             }
+
                         }
-                        System.out.println("2");
-                        biaoji=3;
-                        try {
-                            Thread.sleep(50);
-                        } catch (InterruptedException e) {
-                            throw new RuntimeException(e);
-                        }
+                        System.out.println(1);
+                        task = 2;
                         lock.notifyAll();
                     }
                 }
             }
-        },"t2").start();
+        },"thread1").start();
 
         new Thread(new Runnable() {
             @Override
             public void run() {
-                synchronized (lock){
-                    while (true) {
-                        while (biaoji!=3){
+                while (true) {
+                    synchronized (lock) {
+                        while (task != 2) {
                             try {
                                 lock.wait();
                             } catch (InterruptedException e) {
                                 throw new RuntimeException(e);
                             }
                         }
-                        System.out.println("3");
-                        biaoji=1;
-                        try {
-                            Thread.sleep(50);
-                        } catch (InterruptedException e) {
-                            throw new RuntimeException(e);
-                        }
+                        System.out.println(2);
+                        task = 3;
                         lock.notifyAll();
                     }
                 }
             }
-        },"t3").start();
+        },"thread2").start();
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while (true) {
+                    synchronized (lock) {
+                        while (task != 3) {
+                            try {
+                                lock.wait();
+                            } catch (InterruptedException e) {
+                                throw new RuntimeException(e);
+                            }
+                        }
+                        System.out.println(3);
+                        task = 1;
+                        lock.notifyAll();
+                    }
+                }
+            }
+        },"thread3").start();
     }
-
 
 
 

@@ -1,12 +1,9 @@
-package 其他算法.JUC.其他;
+package 其他算法.JUC.JUC设计模式.同步模式;
 
-
-public class H2O {
-
-    public static volatile int water =0;
-    public static volatile int orf =0;
-    public final static Object lock=new Object();
-
+public class test {
+    private static volatile int water=0;
+    private static volatile int ofr=0;
+    private static final Object lock=new Object();
     public static void main(String[] args) {
 
         new Thread(new Runnable() {
@@ -21,55 +18,49 @@ public class H2O {
                                 throw new RuntimeException(e);
                             }
                         }
-                        System.out.println("water+1");
                         water++;
                         lock.notifyAll();
                     }
                 }
+
             }
         },"t1").start();
-
         new Thread(new Runnable() {
             @Override
             public void run() {
                 while (true){
                     synchronized (lock){
-                        while (orf==1){
+                        while (ofr==1){
                             try {
                                 lock.wait();
                             } catch (InterruptedException e) {
                                 throw new RuntimeException(e);
                             }
                         }
-                        System.out.println("orf+1");
-                        orf++;
+                        ofr++;
                         lock.notifyAll();
                     }
                 }
+
             }
         },"t2").start();
-
         new Thread(new Runnable() {
             @Override
             public void run() {
                 while (true){
-                    synchronized (lock){
-                        while (water!=2||orf!=1){
-                            try {
-                                lock.wait();
-                            } catch (InterruptedException e) {
-                                throw new RuntimeException(e);
-                            }
+                    while (water!=2||ofr!=1){
+                        try {
+                            lock.wait();
+                        } catch (InterruptedException e) {
+                            throw new RuntimeException(e);
                         }
-                        water=0;
-                        orf=0;
-                        System.out.println("H2O");
-
-                        lock.notifyAll();
                     }
+                    water=0;
+                    ofr=0;
+                    lock.notifyAll();
                 }
             }
         },"t3").start();
-
     }
+
 }

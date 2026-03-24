@@ -1,4 +1,4 @@
-package 其他算法.JUC.其他;
+package 其他算法.JUC.JUC设计模式.同步模式;
 
 public class WaitAndNotify {
     static final Object room=new Object();

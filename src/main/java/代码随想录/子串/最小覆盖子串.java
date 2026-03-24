@@ -1,9 +1,39 @@
 package 代码随想录.子串;
 
 import java.util.HashMap;
+import java.util.Objects;
 
 public class 最小覆盖子串 {
 
+    public String minWindow2(String s, String t) {
+
+        HashMap<Character, Integer> mapt = new HashMap<>();
+        HashMap<Character, Integer> maps = new HashMap<>();
+        for (int i = 0; i < t.length(); i++)mapt.put(t.charAt(i),mapt.getOrDefault(t.charAt(i),0)+1);
+        int left=0,right=0,min=Integer.MAX_VALUE;
+        int hive=0;
+        int start=0,reslen=Integer.MAX_VALUE;
+        while (right<s.length()){
+            maps.put(s.charAt(right),maps.getOrDefault(s.charAt(right),0)+1);
+            //右边界
+            if(mapt.containsKey(s.charAt(right))&& Objects.equals(mapt.get(s.charAt(right)), maps.get(s.charAt(right))))hive++;
+
+            //左边界
+            while (left<=right&&hive==mapt.size()){
+                if(right-left+1<min){
+                    start=left;
+                    reslen=right;
+                    min=right-left+1;
+                }
+                if(mapt.containsKey(s.charAt(left))&&Objects.equals(mapt.get(s.charAt(left)), maps.get(s.charAt(left))))hive--;
+                maps.put(s.charAt(left),maps.getOrDefault(s.charAt(left),0)-1);
+                left++;
+            }
+            right++;
+        }
+        if(reslen==Integer.MAX_VALUE)return "";
+        return s.substring(start,reslen+1);
+    }
 
     public String minWindow(String s, String t) {
         //结果

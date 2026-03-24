@@ -1,34 +1,32 @@
 package 其他算法.JUC.JUC设计模式.两阶段终止;
 
-public class 两阶段终止 {
+public class 两阶段终止2 {
 
-    public static void main(String[] args) throws InterruptedException, ClassNotFoundException {
+    private volatile boolean stop=false;
 
+    public void test() throws InterruptedException {
         Thread thread = new Thread(new Runnable() {
             public void run() {
                 while (true) {
-                    if (Thread.currentThread().isInterrupted()) {
+                    if (stop) {
+                        //被打断了，结束
                         System.out.println("<UNK>");
                         break;
                     }
-                    System.out.println("kal");
+
                     try {
+                        //继续睡
+                        System.out.println("kal");
                         Thread.sleep(1);
                     } catch (InterruptedException e) {
-                        //重设置为打断
-                        Thread.currentThread().interrupt();
-                        System.out.println("<UNK>");
-                        break;
                     }
                 }
             }
         });
         thread.start();
-        //睡会
         Thread.sleep(100);
-        //打断
-        thread.interrupt();
-
+        stop=true;
+        thread.interrupt();//如果你不希望他多等1s，可以打断，不过内部什么都不需要做了
     }
 
 }

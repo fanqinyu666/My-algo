@@ -5,27 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6820b0f1-5da2-4268-9220-917299886722" name="更改" comment="重复">
-      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/保护性暂停/Future6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/排序算法/堆排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/面试变种/IntervalSet区间查询.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/面试变种/IntervalSet自己的实现.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/动态代理/JdkProxyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/动态代理/MiniAopDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/代码随想录/字符串/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/两阶段终止/两阶段终止2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/同步模式/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/生产者消费者/生产者消费者4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/线程池/线程池4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/字节题单/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/字节题单/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/字节题单/另一棵树的子树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/字节题单/小于n的最大数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/new_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/ss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/携程笔试.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/美团笔试1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/美团笔试2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/二叉树/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/完全平方数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/动态规划/完全平方数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/图论/课程表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/图论/课程表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/两阶段终止.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/两阶段终止/两阶段终止.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/保护性暂停/Future5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/保护性暂停/Future5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/JUC/其他/同步模式.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/LRUCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/MyQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/singto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/单调栈/柱状图中最大的矩形.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/单调栈/柱状图中最大的矩形.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/子串/最小覆盖子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/子串/最小覆盖子串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/字符串/重复的子字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/字符串/重复的子字符串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/数组/找到字符串中所有字母异位词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/数组/找到字符串中所有字母异位词.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/代码随想录/滑动窗口/找到字符串中所有字母异位词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/代码随想录/滑动窗口/找到字符串中所有字母异位词.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/两阶段终止/两阶段终止.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/两阶段终止/两阶段终止.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/JUC/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/JUC/其他/H2O.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/同步模式/H2O.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/JUC/其他/WaitAndNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/同步模式/WaitAndNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/JUC/其他/同步模式循序控制.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/同步模式/同步模式循序控制.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/JUC/其他/同步模式循序控制2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/同步模式/同步模式循序控制2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他算法/JUC/其他/同步模式顺序控制3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他算法/JUC/JUC设计模式/同步模式/同步模式顺序控制3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/二分.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/test5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +93,19 @@
     &quot;应用程序.Future6.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.test.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.test2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.test6.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.信号量.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.再刷一轮.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.堆排序.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.斐波那契字符串验证.executor&quot;: &quot;Debug&quot;
+    &quot;应用程序.携程笔试.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.斐波那契字符串验证.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.美团笔试.executor&quot;: &quot;Debug&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="算法复习_随手练.小练习" />
+      <recent name="字节题单" />
       <recent name="代码面试经典150.二叉树" />
       <recent name="代码面试经典150.链表" />
     </key>
@@ -158,7 +173,21 @@
       <workItem from="1772616308361" duration="667000" />
       <workItem from="1772627013418" duration="694000" />
       <workItem from="1773129903803" duration="4773000" />
-      <workItem from="1773194672073" duration="23300000" />
+      <workItem from="1773194672073" duration="31508000" />
+      <workItem from="1773277165774" duration="28944000" />
+      <workItem from="1773383286923" duration="6091000" />
+      <workItem from="1773453283023" duration="10024000" />
+      <workItem from="1773543569609" duration="13103000" />
+      <workItem from="1773640311410" duration="960000" />
+      <workItem from="1773658430699" duration="6331000" />
+      <workItem from="1773708705229" duration="11039000" />
+      <workItem from="1773797579745" duration="3381000" />
+      <workItem from="1773819964928" duration="8992000" />
+      <workItem from="1773879471016" duration="25203000" />
+      <workItem from="1773969333147" duration="5064000" />
+      <workItem from="1774055782601" duration="215000" />
+      <workItem from="1774093038881" duration="3903000" />
+      <workItem from="1774151722182" duration="608000" />
     </task>
     <task id="LOCAL-00002" summary="重复">
       <option name="closed" value="true" />
@@ -168,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771668825003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="重复">
+      <option name="closed" value="true" />
+      <created>1773225808399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773225808399</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,5 +236,10 @@
         <PinnedItemInfo parentTag="代码随想录.链表.ListNode" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/算法复习_随手练/小练习/test.java" line="61">
+        <watch expression="lists" language="JAVA" />
+      </inline-watch>
+    </watches-manager>
   </component>
 </project>

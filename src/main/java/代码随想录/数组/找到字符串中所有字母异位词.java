@@ -6,7 +6,39 @@ import java.util.List;
 
 public class 找到字符串中所有字母异位词 {
 
+
     public List<Integer> findAnagrams(String s, String p) {
+
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        if (s.length() < p.length()) return arrayList;
+        int[] count = new int[26];
+        for (int i = 0; i < p.length(); ++i) {
+            ++count[s.charAt(i) - 'a'];
+            --count[p.charAt(i) - 'a'];
+        }
+        int differ =0;
+        for (int i = 0; i < 26; i++) if (count[i] != 0) differ++;
+        if(differ ==0)arrayList.add(0);
+
+        for (int i=0;i<s.length()-p.length();i++){
+            int left = s.charAt(i) - 'a';
+            int right = s.charAt(i + p.length()) - 'a';
+
+            // 处理左边界 (移出)
+            if (count[left] == 0) differ++; // 平衡变不平衡
+            count[left]--;
+            if (count[left] == 0) differ--; // 不平衡变平衡
+            // 处理右边界 (移入)
+            if (count[right] == 0) differ++; // 平衡变不平衡
+            count[right]++;
+            if (count[right] == 0) differ--; // 不平衡变平衡
+
+            if(differ==0)arrayList.add(i+1);
+        }
+        return arrayList;
+    }
+
+    public List<Integer> findAnagrams3(String s, String p) {
         if(p.length()>s.length()){
             return new ArrayList();
         }
@@ -43,6 +75,7 @@ public class 找到字符串中所有字母异位词 {
         }
         return arrayList;
     }
+
     public List<Integer> findAnagrams2(String s, String p) {
         int sLen = s.length(), pLen = p.length();
         List<Integer> ans = new ArrayList<Integer>();

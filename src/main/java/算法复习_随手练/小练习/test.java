@@ -1,60 +1,82 @@
 package 算法复习_随手练.小练习;
 
+import java.util.*;
+
 public class test {
 
-    public int majorityElement(int[] nums) {
-        int max=0;
-        int pre=0;
-        for (int i=0;i<nums.length;i++){
-            if(max==0)pre=nums[i];
-            if (pre==nums[i])max++;
-            else max--;
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        // 注意 hasNext 和 hasNextLine 的区别
+
+        int n = in.nextInt();
+        int q = in.nextInt();
+        ArrayList<ArrayList<Integer>> lists = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int c = in.nextInt();
+            int d = in.nextInt();
+            ArrayList<Integer> list = new ArrayList<>();
+            list.add(a);
+            list.add(b);
+            list.add(c);
+            list.add(d);
+            lists.add(list);
         }
-        return pre;
+        ArrayList<Integer> sort = sort(q, lists);
+        for (int i=0;i<q;i++){
+
+        }
     }
-    public void sortColors(int[] nums) {
-        int l=0,i=0,r=nums.length-1;;
-        while (i<=r){
-            if(nums[i]==0){
-                swap(nums,l,i);
-                i++;
-                l++;
-            }else if(nums[i]==2){
-                swap(nums,i,r);
-                r--;
-                // 注意：这里 i 不要自增！因为从右边交换过来的数还没经过检查，可能是 0 或 1
-            }else {
-                i++;
+
+    //去重
+
+    //点赞2.
+    //评论3.
+    //发布时间早4.
+    //原始编号1.
+
+    //入参，q行，入排行榜表示排名，否则是0
+    public static ArrayList<Integer> sort(int q,ArrayList<ArrayList<Integer>> lists){
+
+        PriorityQueue<ArrayList<Integer>> priorityQueue = new PriorityQueue<>(new Comparator<ArrayList<Integer>>() {
+            @Override
+            public int compare(ArrayList<Integer> t1, ArrayList<Integer> t2) {
+                if(Objects.equals(t1.get(1), t2.get(1))){
+
+                    if(Objects.equals(t1.get(2), t2.get(2))){
+
+                        if(Objects.equals(t1.get(3), t2.get(3))){
+
+                            return t1.get(0)-t2.get(0);
+                        }
+                        return t1.get(3) - t2.get(3);
+
+                    }
+                    return t1.get(2)-t2.get(2);
+                }
+                return t2.get(1)-t1.get(1);
             }
+        });
+        priorityQueue.addAll(lists);
+
+        //去重,缺少一个变量来记录他们的原始位置
+        ArrayList<Integer> integers = new ArrayList<>();
+        for (int i = 0; i <priorityQueue.size(); i++)integers.add(priorityQueue.poll().get(0));
+        HashSet<Integer> set = new HashSet<>();
+        for (int i=0;i<integers.size();i++){
+            if (set.contains(integers.get(i))) {
+
+            }
+
         }
-    }
-
-    public void nextPermutation(int[] nums) {
-        int i = nums.length - 2;
-        while (i >= 0&&nums[i] > nums[i + 1]) if (nums[i] > nums[i + 1])i--;
-        int right = nums.length - 1;
-        if (i>= 0) {
-            while (right >= 0 && nums[i] >= nums[right])right--;
-            swap(nums, i, right);
-        }
-        reverse(nums, i + 1);
+        return null;
     }
 
 
-    public void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
 
-    public void reverse(int[] nums, int start) {
-        int left = start, right = nums.length - 1;
-        while (left < right) {
-            swap(nums, left, right);
-            left++;
-            right--;
-        }
-    }
+
 
 
 
